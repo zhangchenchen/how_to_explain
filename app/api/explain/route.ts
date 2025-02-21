@@ -2,10 +2,8 @@ import { respData, respErr } from "@/lib/resp";
 import { generateText } from "ai";
 import { createOpenRouter } from "@openrouter/ai-sdk-provider";
 import { createOpenAICompatible } from "@ai-sdk/openai-compatible";
+import { NextResponse } from "next/server";
 
-const openrouter = createOpenRouter({
-  apiKey: process.env.OPENROUTER_API_KEY,
-});
 
 const zhipu = createOpenAICompatible({
   name: "zhipu",
@@ -13,9 +11,11 @@ const zhipu = createOpenAICompatible({
   baseURL: process.env.ZHIPU_BASE_URL,
 });
 
-export async function POST(req: Request) {
+export async function POST(request: Request) {
   try {
-    const { content, audience } = await req.json();
+    const body = await request.json();
+    
+    const { content, audience } = body;
     
     if (!content || !audience) {
       return respErr("Content and target audience are required");
@@ -79,8 +79,11 @@ Note:
     // 如果所有尝试都失败
     return respErr("Failed to generate explanation with all available providers");
     
-  } catch (err) {
-    console.error("Failed to generate explanation:", err);
-    return respErr("Failed to generate explanation. Please try again later");
+  } catch (error) {
+    console.error("API Error:", error);
+    return NextResponse.json(
+      { error: "Internal Server Error" },
+      { status: 500 }
+    );
   }
 } 

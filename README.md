@@ -39,28 +39,9 @@ cp .env.example .env.local
 
 ## Deploy
 
-### Vercel 部署
+- Deploy to Vercel
 
-1. 确保依赖正确安装：
-```bash
-pnpm install
-```
-
-2. 本地测试构建：
-```bash
-pnpm build
-```
-
-3. 部署到 Vercel：
-```bash
-pnpm vercel
-```
-
-如果遇到类型错误，尝试：
-```bash
-pnpm exec tsc --build --clean
-pnpm build
-```
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fshipanyai%2Fshipany-template-one&project-name=my-shipany-project&repository-name=my-shipany-project&redirect-url=https%3A%2F%2Fshipany.ai&demo-title=ShipAny&demo-description=Ship%20Any%20AI%20Startup%20in%20hours%2C%20not%20days&demo-url=https%3A%2F%2Fshipany.ai&demo-image=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FGgGSW3La8AAGJgU%3Fformat%3Djpg%26name%3Dlarge)
 
 - Deploy to Cloudflare
 

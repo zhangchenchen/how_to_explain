@@ -3,12 +3,5 @@
     "app/api/**/*": {
       "maxDuration": 60
     }
-  },
-  "build": {
-    "env": {
-      "NEXT_TELEMETRY_DISABLED": "1"
-    }
-  },
-  "framework": "nextjs",
-  "buildCommand": "next build"
+  }
 }

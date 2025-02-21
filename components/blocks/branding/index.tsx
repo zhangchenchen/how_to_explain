@@ -26,7 +26,7 @@ export default function Branding({ section }: { section: SectionType }) {
                 <Link key={idx} href={button.url || ""} target={button.target}>
                   <Button
                     variant={button.variant}
-                    size={button.size}
+                    size={button.size || "default"}
                     className={button.className}
                   >
                     {button.title}

@@ -10,6 +10,12 @@ interface ExplanationDialogProps {
   content: string;
 }
 
+interface CodeProps {
+  inline?: boolean;
+  className?: string;
+  children?: React.ReactNode;
+}
+
 export default function ExplanationDialog({
   open,
   onOpenChange,
@@ -72,7 +78,7 @@ export default function ExplanationDialog({
                   <td className="px-6 py-4 whitespace-normal text-sm" {...props} />
                 ),
                 // Code blocks
-                code: ({ inline, className, children }) => {
+                code: ({ inline, className, children }: CodeProps) => {
                   if (inline) {
                     return <code className="bg-gray-100 dark:bg-gray-800 rounded px-1 py-0.5">{children}</code>;
                   }
