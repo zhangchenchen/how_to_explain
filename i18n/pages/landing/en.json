@@ -1,0 +1,555 @@
+{
+  "template": "",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "How to Explain",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "How To Explain"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Features",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "Pricing",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "Blog",
+          "url": "/#blog",
+          "icon": "BiCube",
+          "children": [
+            {
+              "title": "AI Wallpaper Shop",
+              "description": "AI Wallpaper Generator",
+              "icon": "MdOutlineWallpaper",
+              "url": "https://aiwallpaper.shop",
+              "target": "_blank"
+            },
+            {
+              "title": "AI Cover Generator",
+              "description": "AI Cover Generator",
+              "icon": "",
+              "url": "https://aicover.design",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "Make Everything Easy to Understand",
+    "description": "1. Input any complex question or url link<br />2. Choose your target audience (kids, beginners)<br />3. Click start button to get your explanation"
+  },
+  "branding": {
+    "buttons": [
+      {
+        "title": "Get Started",
+        "url": "/#pricing",
+        "icon": "RiRocketLine",
+        "variant": "default",
+        "size": "lg",
+        "className": "text-lg px-8 py-6"
+      },
+      {
+        "title": "View Demo",
+        "url": "https://demo.shipany.ai",
+        "icon": "RiPlayCircleLine", 
+        "variant": "outline",
+        "target": "_blank",
+        "size": "lg",
+        "className": "text-lg px-8 py-6"
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "What is HowToExplain",
+    "label": "Introduce",
+    "description": "HowToExplain is an AI-powered tool that transforms complex topics into clear, easy-to-understand explanations for different audiences.",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "Smart Simplification",
+        "description": "Our AI technology breaks down complex concepts into simple, digestible explanations tailored to your audience's level.",
+        "icon": "RiBrainLine"
+      },
+      {
+        "title": "Audience-Focused",
+        "description": "Customize explanations for different audiences - from kids to beginners to professionals.",
+        "icon": "RiGroupLine"
+      },
+      {
+        "title": "Instant Results",
+        "description": "Get clear, structured explanations instantly, saving hours of research and simplification work.",
+        "icon": "RiLightbulbLine"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "Why Choose HowToExplain",
+    "label": "Benefits",
+    "description": "Experience the power of AI-driven explanations that make complex topics accessible to everyone.",
+    "items": [
+      {
+        "title": "AI-Powered Understanding",
+        "description": "Our advanced AI technology analyzes complex content and creates clear, accurate explanations that anyone can understand.",
+        "icon": "RiAiLine",
+        "image": {
+          "src": "/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "Multi-Level Adaptation",
+        "description": "Get explanations perfectly tailored for different knowledge levels - whether you're explaining to kids, students, or professionals.",
+        "icon": "RiUserSettingsLine",
+        "image": {
+          "src": "/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "Structured Visualization",
+        "description": "Get explanations in well-organized formats with charts, diagrams, and bullet points - making complex information visually digestible.",
+        "icon": "RiLayoutLine",
+        "image": {
+          "src": "/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "How to Use HowToExplain",
+    "description": "Get clear explanations in three simple steps:",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "Input Your Content",
+        "description": "Paste any complex text, article URL, or type your question that needs explanation.",
+        "image": {
+          "src": "/imgs/features/5.jpeg"
+        }
+      },
+      {
+        "title": "Select Your Audience",
+        "description": "Choose who you're explaining to - kids, beginners, or professionals. Our AI adapts the explanation accordingly.",
+        "image": {
+          "src": "/imgs/features/6.png"
+        }
+      },
+      {
+        "title": "Get Visual Explanation",
+        "description": "Receive a clear, structured explanation with diagrams, bullet points, and examples that match your audience's level.",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      },
+      {
+        "title": "Share and Learn",
+        "description": "Save your explanations, share them with others, or generate new versions for different audiences.",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "title": "Key Features of HowToExplain",
+    "description": "Advanced AI capabilities to make complex topics simple and understandable.",
+    "items": [
+      {
+        "title": "Smart Content Analysis",
+        "description": "Advanced AI algorithms that understand context and identify key concepts for explanation.",
+        "icon": "RiBrainLine"
+      },
+      {
+        "title": "Multi-Format Output",
+        "description": "Generate explanations in various formats - text, bullet points, diagrams, and mind maps.",
+        "icon": "RiLayoutLine"
+      },
+      {
+        "title": "Audience Adaptation",
+        "description": "Automatically adjust language and examples based on the target audience's level.",
+        "icon": "RiGroupLine"
+      },
+      {
+        "title": "Visual Learning",
+        "description": "Create intuitive diagrams and visual aids to enhance understanding of complex concepts.",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "Easy Sharing",
+        "description": "Share explanations instantly with colleagues, students, or anyone who needs to understand.",
+        "icon": "RiShareLine"
+      },
+      {
+        "title": "Knowledge Library",
+        "description": "Save and organize your explanations for future reference and continuous learning.",
+        "icon": "RiBookLine"
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "Stats",
+    "title": "People Love HowToExplain",
+    "description": "for making complex topics simple and understandable",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Active Users",
+        "label": "1K+",
+        "description": "Daily Users"
+      },
+      {
+        "title": "Explanations",
+        "label": "10K+",
+        "description": "Generated"
+      },
+      {
+        "title": "Average",
+        "label": "4.7",
+        "description": "User Rating"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "Pricing",
+    "title": "Pricing",
+    "description": "Get all features of ShipAny, Ship your AI SaaS startups fast.",
+    "groups": [],
+    "items": [
+      {
+        "title": "Starter",
+        "description": "Get started with your first SaaS startup.",
+        "features_title": "Includes",
+        "features": [
+          "100 credits, valid for 1 month",
+          "NextJS boilerplate",
+          "SEO-friendly structure",
+          "Payment with Stripe",
+          "Data storage with Supabase",
+          "Google Oauth & One-Tap Login",
+          "i18n support"
+        ],
+        "interval": "one-time",
+        "amount": 9900,
+        "cn_amount": 69900,
+        "currency": "USD",
+        "price": "$99",
+        "original_price": "$199",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "Pay once. Build unlimited projects!",
+        "button": {
+          "title": "Get ShipAny",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter",
+        "product_name": "ShipAny Boilerplate Starter",
+        "credits": 100,
+        "valid_months": 1
+      },
+      {
+        "title": "Standard",
+        "description": "Ship Fast with your SaaS Startups.",
+        "label": "Popular",
+        "features_title": "Everything in Starter, plus",
+        "features": [
+          "200 credits, valid for 3 month",
+          "Deploy with Vercel or Cloudflare",
+          "Generation of Privacy & Terms",
+          "Google Analytics Integration",
+          "Google Search Console Integration",
+          "Discord community",
+          "Technical support for your first ship",
+          "Lifetime updates"
+        ],
+        "interval": "one-time",
+        "amount": 19900,
+        "cn_amount": 139900,
+        "currency": "USD",
+        "price": "$199",
+        "original_price": "$299",
+        "unit": "USD",
+        "is_featured": true,
+        "tip": "Pay once. Build unlimited projects!",
+        "button": {
+          "title": "Get ShipAny",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "standard",
+        "product_name": "ShipAny Boilerplate Standard",
+        "credits": 200,
+        "valid_months": 3
+      },
+      {
+        "title": "Premium",
+        "description": "Ship Any AI SaaS Startups.",
+        "features_title": "Everything in Standard, plus",
+        "features": [
+          "300 credits, valid for 1 year",
+          "Business Functions with AI",
+          "User Center",
+          "Credits System",
+          "API Sales for your SaaS",
+          "Admin System",
+          "Priority Technical Support"
+        ],
+        "interval": "one-time",
+        "amount": 29900,
+        "cn_amount": 199900,
+        "currency": "USD",
+        "price": "$299",
+        "original_price": "$399",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "Pay once. Build unlimited projects!",
+        "button": {
+          "title": "Get ShipAny",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium",
+        "product_name": "ShipAny Boilerplate Premium",
+        "credits": 300,
+        "valid_months": 12
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "Testimonial",
+    "title": "What Users Say About HowToExplain",
+    "description": "Hear from educators, students, and professionals who use HowToExplain to make complex topics simple.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Chen",
+        "label": "High School Teacher",
+        "description": "HowToExplain helps me create clear, age-appropriate explanations for my students. Complex science concepts become much easier to understand with the visual aids and examples it generates.",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Dr. Rachel Kim",
+        "label": "University Professor",
+        "description": "This tool is a game-changer for academic communication. I use it to explain complex research concepts to different audiences, from students to fellow researchers.",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Mark Thompson",
+        "label": "Content Creator",
+        "description": "As an educational content creator, HowToExplain is invaluable. It helps me break down complex topics into engaging, easy-to-follow explanations for my audience.",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "Lisa Garcia",
+        "label": "Parent",
+        "description": "I use HowToExplain to help my kids with their homework. It's amazing how it can take difficult concepts and make them understandable for children.",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "James Wilson",
+        "label": "Technical Writer",
+        "description": "Perfect for technical documentation. It helps me translate complex technical concepts into clear explanations that non-technical stakeholders can understand.",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Emily Zhang",
+        "label": "Student",
+        "description": "This tool has been a lifesaver for my studies. It helps me understand difficult concepts by breaking them down and providing relevant examples I can relate to.",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Frequently Asked Questions About HowToExplain",
+    "description": "Have another question? Contact us on Discord or by email.",
+    "items": [
+      {
+        "title": "What exactly is HowToExplain and how does it work?",
+        "description": "HowToExplain is an AI-powered tool that helps make complex topics easy to understand. It uses advanced AI to analyze content and generate clear, audience-appropriate explanations with visual aids and examples."
+      },
+      {
+        "title": "Who can benefit from using HowToExplain?",
+        "description": "HowToExplain is useful for teachers, students, parents, content creators, and professionals who need to explain complex concepts to different audiences. It's particularly helpful in education, technical writing, and professional communication."
+      },
+      {
+        "title": "What types of content can I explain with HowToExplain?",
+        "description": "You can explain virtually any complex topic - from scientific concepts to technical documentation, academic subjects to business concepts. The AI adapts the explanation to match your audience's understanding level."
+      },
+      {
+        "title": "How does the audience adaptation feature work?",
+        "description": "Simply select your target audience (kids, beginners, or professionals), and our AI automatically adjusts the language, examples, and complexity level of the explanation to match their understanding level."
+      },
+      {
+        "title": "What formats of explanation does HowToExplain provide?",
+        "description": "HowToExplain generates explanations in multiple formats including text, bullet points, diagrams, mind maps, and visual aids. This multi-format approach helps ensure better understanding for different learning styles."
+      },
+      {
+        "title": "Can I save and share my explanations?",
+        "description": "Yes! You can save explanations to your personal knowledge library, share them with others, and even generate different versions of the same explanation for different audiences."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Start Explaining Better Today",
+    "description": "Join thousands of educators, parents, and professionals who make complex topics simple",
+    "button": "Try For Free"
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "HowToExplain",
+      "description": "HowToExplain is an AI-powered tool that makes complex topics easy to understand. Perfect for educators, students, and professionals.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "HowToExplain"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • HowToExplain All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "About",
+          "children": [
+            {
+              "title": "Features",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "How It Works",
+              "url": "/#usage",
+              "target": "_self"
+            },
+            {
+              "title": "Pricing",
+              "url": "/#pricing",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "Help Center",
+              "url": "https://help.howtoexplain.ai",
+              "target": "_blank"
+            },
+            {
+              "title": "Examples",
+              "url": "https://howtoexplain.ai/examples",
+              "target": "_blank"
+            },
+            {
+              "title": "Blog",
+              "url": "https://blog.howtoexplain.ai",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "title": "Community",
+          "children": [
+            {
+              "title": "Discord",
+              "url": "https://discord.gg/howtoexplain",
+              "target": "_blank"
+            },
+            {
+              "title": "Twitter",
+              "url": "https://twitter.com/howtoexplain",
+              "target": "_blank"
+            },
+            {
+              "title": "GitHub",
+              "url": "https://github.com/howtoexplain",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/howtoexplain",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/howtoexplain",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/howtoexplain",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@howtoexplain.ai",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}
