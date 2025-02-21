@@ -220,7 +220,7 @@ importers:
         version: 3.24.1
     devDependencies:
       '@cloudflare/next-on-pages':
-        specifier: ^1.8.5
+        specifier: ^1.13.7
         version: 1.13.7(vercel@39.1.1)(wrangler@3.99.0)
       '@next/bundle-analyzer':
         specifier: ^15.1.3
