@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "title": "HowToExplain | जटिल को सरल बनाएं",
+    "description": "जटिल अवधारणाओं को सरल समझ में बदलें। बच्चों, नौसिखियों या किसी भी ऐसे व्यक्ति के लिए उपयुक्त जिसे सरल व्याख्या की आवश्यकता है।",
+    "keywords": "howToExplain, सरल व्याख्या, ज्ञान प्रसार, अवधारणा सरलीकरण"
+  },
+  "user": {
+    "sign_in": "साइन इन करें",
+    "sign_out": "साइन आउट करें",
+    "credits": "क्रेडिट्स",
+    "api_keys": "API कुंजियां",
+    "my_orders": "मेरे आदेश"
+  },
+  "sign_modal": {
+    "sign_in_title": "साइन इन करें",
+    "sign_in_description": "अपने खाते में प्रवेश करें",
+    "sign_up_title": "साइन अप करें",
+    "sign_up_description": "नया खाता बनाएं",
+    "email_title": "ईमेल",
+    "email_placeholder": "अपना ईमेल दर्ज करें",
+    "password_title": "पासवर्ड",
+    "password_placeholder": "अपना पासवर्ड दर्ज करें",
+    "forgot_password": "पासवर्ड भूल गए?",
+    "or": "या",
+    "continue": "जारी रखें",
+    "no_account": "खाता नहीं है?",
+    "email_sign_in": "ईमेल से साइन इन करें",
+    "google_sign_in": "Google से साइन इन करें",
+    "github_sign_in": "GitHub से साइन इन करें",
+    "close_title": "बंद करें",
+    "cancel_title": "रद्द करें"
+  },
+  "my_orders": {
+    "title": "मेरे आदेश",
+    "description": "ShipAny के साथ भुगतान किए गए आदेश।",
+    "no_orders": "कोई आदेश नहीं मिला",
+    "tip": "",
+    "activate_order": "आदेश सक्रिय करें",
+    "actived": "सक्रिय किया गया",
+    "join_discord": "Discord में शामिल हों",
+    "read_docs": "दस्तावेज़ पढ़ें",
+    "table": {
+      "order_no": "आदेश संख्या",
+      "email": "ईमेल",
+      "product_name": "उत्पाद का नाम",
+      "amount": "राशि",
+      "paid_at": "भुगतान समय",
+      "github_username": "GitHub उपयोगकर्ता नाम",
+      "status": "स्थिति"
+    }
+  },
+  "my_credits": {
+    "title": "मेरे क्रेडिट्स",
+    "left_tip": "शेष क्रेडिट्स: {left_credits}",
+    "no_credits": "कोई क्रेडिट रिकॉर्ड नहीं",
+    "recharge": "रिचार्ज करें",
+    "table": {
+      "trans_no": "लेन-देन संख्या",
+      "trans_type": "लेन-देन प्रकार",
+      "credits": "क्रेडिट्स",
+      "updated_at": "अपडेट समय",
+      "status": "स्थिति"
+    }
+  },
+  "api_keys": {
+    "title": "API कुंजियां",
+    "tip": "कृपया अपनी API कुंजी को लीक होने से बचाने के लिए सुरक्षित रखें",
+    "no_api_keys": "कोई API कुंजी नहीं",
+    "create_api_key": "API कुंजी बनाएं",
+    "table": {
+      "name": "नाम",
+      "key": "कुंजी",
+      "created_at": "बनाने का समय"
+    },
+    "form": {
+      "name": "नाम",
+      "name_placeholder": "API कुंजी का नाम",
+      "submit": "जमा करें"
+    }
+  },
+  "blog": {
+    "title": "ब्लॉग",
+    "description": "ShipAny के बारे में समाचार, संसाधन और अपडेट",
+    "read_more_text": "और पढ़ें"
+  }
+}

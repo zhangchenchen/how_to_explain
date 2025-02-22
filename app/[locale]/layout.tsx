@@ -10,6 +10,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { ThemeProvider } from "@/providers/theme";
 import { cn } from "@/lib/utils";
 import { Toaster } from 'sonner';
+import { locales } from "@/i18n/locale";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -41,9 +42,10 @@ export default async function RootLayout({
   params: { locale: string };
 }>) {
   const messages = await getMessages();
+  const isRTL = locale === 'ar';
 
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={locale} dir={isRTL ? 'rtl' : 'ltr'} suppressHydrationWarning>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased overflow-x-hidden",

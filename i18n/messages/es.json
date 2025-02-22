@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "title": "HowToExplain | Simplificando lo complejo",
+    "description": "Transforma conceptos complejos en explicaciones fáciles de entender. Perfecto para explicar a niños, principiantes o cualquier persona que necesite explicaciones simples.",
+    "keywords": "howToExplain, explicaciones simples, divulgación, simplificación de conceptos"
+  },
+  "user": {
+    "sign_in": "Iniciar sesión",
+    "sign_out": "Cerrar sesión",
+    "credits": "Créditos",
+    "api_keys": "Claves API",
+    "my_orders": "Mis pedidos"
+  },
+  "sign_modal": {
+    "sign_in_title": "Iniciar sesión",
+    "sign_in_description": "Accede a tu cuenta",
+    "sign_up_title": "Registrarse",
+    "sign_up_description": "Crear una cuenta nueva",
+    "email_title": "Correo electrónico",
+    "email_placeholder": "Introduce tu correo electrónico",
+    "password_title": "Contraseña",
+    "password_placeholder": "Introduce tu contraseña",
+    "forgot_password": "¿Olvidaste tu contraseña?",
+    "or": "O",
+    "continue": "Continuar",
+    "no_account": "¿No tienes cuenta?",
+    "email_sign_in": "Iniciar sesión con correo",
+    "google_sign_in": "Iniciar sesión con Google",
+    "github_sign_in": "Iniciar sesión con GitHub",
+    "close_title": "Cerrar",
+    "cancel_title": "Cancelar"
+  },
+  "my_credits": {
+    "title": "Mis Créditos",
+    "left_tip": "créditos restantes: {left_credits}",
+    "no_credits": "Sin créditos",
+    "recharge": "Recargar",
+    "table": {
+      "trans_no": "Nº de transacción",
+      "trans_type": "Tipo de transacción",
+      "credits": "Créditos",
+      "updated_at": "Actualizado el",
+      "status": "Estado"
+    }
+  },
+  "api_keys": {
+    "title": "Claves API",
+    "tip": "Mantén tu clave API segura",
+    "no_api_keys": "Sin claves API",
+    "create_api_key": "Crear clave API",
+    "table": {
+      "name": "Nombre",
+      "key": "Clave",
+      "created_at": "Creado el"
+    },
+    "form": {
+      "name": "Nombre",
+      "name_placeholder": "Nombre de la clave API",
+      "submit": "Enviar"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Noticias, recursos y actualizaciones sobre HowToExplain",
+    "read_more_text": "Leer más"
+  }
+} 

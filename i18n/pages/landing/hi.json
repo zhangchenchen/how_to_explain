@@ -1,0 +1,538 @@
+{
+  "template": "How to Explain",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "How to Explain",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "How To Explain"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "विशेषताएं",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "मूल्य",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "Blog",
+          "url": "/#blog",
+          "icon": "BiCube",
+          "children": [
+            {
+              "title": "AI Wallpaper Shop",
+              "description": "AI वॉलपेपर जनरेटर",
+              "icon": "MdOutlineWallpaper",
+              "url": "https://aiwallpaper.shop",
+              "target": "_blank"
+            },
+            {
+              "title": "AI Cover Generator",
+              "description": "AI कवर जनरेटर",
+              "icon": "",
+              "url": "https://aicover.design",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "सब कुछ समझने में आसान बनाएं",
+    "description": "1. कोई भी जटिल प्रश्न या URL लिंक डालें<br />2. अपने लक्षित दर्शकों को चुनें (बच्चे, शुरुआती)<br />3. अपनी व्याख्या प्राप्त करने के लिए शुरू बटन पर क्लिक करें",
+    "feature": {
+      "items": [
+        {
+          "icon": "RiLightbulbLine",
+          "className": "flex items-center gap-4"
+        }
+      ],
+      "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+    }
+  },
+  "branding": {
+    "buttons": [
+      {
+        "title": "शुरू करें",
+        "url": "/#pricing",
+        "icon": "RiRocketLine",
+        "variant": "default",
+        "size": "lg",
+        "className": "text-lg px-8 py-6"
+      },
+      {
+        "title": "डेमो देखें",
+        "url": "https://demo.shipany.ai",
+        "icon": "RiPlayCircleLine", 
+        "variant": "outline",
+        "target": "_blank",
+        "size": "lg",
+        "className": "text-lg px-8 py-6"
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "HowToExplain क्या है",
+    "label": "परिचय",
+    "description": "HowToExplain एक AI-संचालित टूल है जो जटिल विषयों को विभिन्न दर्शकों के लिए स्पष्ट, समझने में आसान व्याख्याओं में बदलता है।",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "स्मार्ट सरलीकरण",
+        "description": "हमारी AI तकनीक जटिल अवधारणाओं को आपके दर्शकों के स्तर के अनुरूप सरल, समझने योग्य व्याख्याओं में विभाजित करती है।",
+        "icon": "RiBrainLine"
+      },
+      {
+        "title": "दर्शक-केंद्रित",
+        "description": "विभिन्न दर्शकों के लिए अनुकूलित व्याख्याएं - बच्चों से लेकर शुरुआती से लेकर पेशेवरों तक।",
+        "icon": "RiGroupLine"
+      },
+      {
+        "title": "तत्काल परिणाम",
+        "description": "तुरंत स्पष्ट, संरचित व्याख्याएं प्राप्त करें, शोध और सरलीकरण कार्य के घंटों की बचत करें।",
+        "icon": "RiLightbulbLine"
+      }
+    ],
+    "className": "space-y-8"
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "HowToExplain को क्यों चुनें",
+    "label": "लाभ",
+    "description": "AI-संचालित व्याख्याओं की शक्ति का अनुभव करें जो जटिल विषयों को सभी के लिए सुलभ बनाती है।",
+    "items": [
+      {
+        "title": "AI-संचालित समझ",
+        "description": "हमारी उन्नत AI तकनीक जटिल सामग्री का विश्लेषण करती है और स्पष्ट, सटीक व्याख्याएं बनाती है जिन्हें कोई भी समझ सकता है।",
+        "icon": "RiAiLine",
+        "image": {
+          "src": "/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "बहु-स्तरीय अनुकूलन",
+        "description": "विभिन्न ज्ञान स्तरों के लिए पूरी तरह से अनुकूलित व्याख्याएं प्राप्त करें - चाहे आप बच्चों, छात्रों या पेशेवरों को समझा रहे हों।",
+        "icon": "RiUserSettingsLine"
+      },
+      {
+        "title": "संरचित दृश्यांकन",
+        "description": "चार्ट, आरेख और बुलेट पॉइंट के साथ सुव्यवस्थित प्रारूपों में व्याख्याएं प्राप्त करें - जटिल जानकारी को दृश्य रूप से समझने योग्य बनाएं।",
+        "icon": "RiLayoutLine"
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "HowToExplain का उपयोग कैसे करें",
+    "description": "तीन सरल चरणों में स्पष्ट व्याख्याएं प्राप्त करें:",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "अपनी सामग्री डालें",
+        "description": "कोई भी जटिल पाठ, लेख URL, या अपना प्रश्न टाइप करें जिसे व्याख्या की आवश्यकता है।",
+        "image": {
+          "src": "/imgs/features/5.jpeg"
+        },
+        "icon": "RiEdit2Line"
+      },
+      {
+        "title": "अपने दर्शकों का चयन करें",
+        "description": "चुनें कि आप किसे समझा रहे हैं - बच्चे, शुरुआती, या पेशेवर। हमारी AI तदनुसार व्याख्या को अनुकूलित करती है।",
+        "image": {
+          "src": "/imgs/features/6.png"
+        },
+        "icon": "RiUserLine"
+      },
+      {
+        "title": "दृश्य व्याख्या प्राप्त करें",
+        "description": "आपके दर्शकों के स्तर के अनुरूप आरेख, बुलेट पॉइंट और उदाहरणों के साथ स्पष्ट, संरचित व्याख्या प्राप्त करें।",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      },
+      {
+        "title": "साझा करें और सीखें",
+        "description": "अपनी व्याख्याएं सहेजें, दूसरों के साथ साझा करें, या विभिन्न दर्शकों के लिए नए संस्करण बनाएं।",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ],
+    "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+  },
+  "feature": {
+    "name": "feature",
+    "title": "HowToExplain की प्रमुख विशेषताएं",
+    "description": "जटिल विषयों को सरल और समझने योग्य बनाने के लिए उन्नत AI क्षमताएं।",
+    "items": [
+      {
+        "title": "स्मार्ट सामग्री विश्लेषण",
+        "description": "उन्नत AI एल्गोरिदम जो संदर्भ को समझते हैं और व्याख्या के लिए प्रमुख अवधारणाओं की पहचान करते हैं।",
+        "icon": "RiBrainLine"
+      },
+      {
+        "title": "बहु-प्रारूप आउटपुट",
+        "description": "विभिन्न प्रारूपों में व्याख्याएं उत्पन्न करें - पाठ, बुलेट पॉइंट, आरेख और माइंड मैप।",
+        "icon": "RiLayoutLine"
+      },
+      {
+        "title": "दर्शक अनुकूलन",
+        "description": "लक्षित दर्शकों के स्तर के आधार पर भाषा और उदाहरणों को स्वचालित रूप से समायोजित करें।",
+        "icon": "RiGroupLine"
+      },
+      {
+        "title": "दृश्य शिक्षण",
+        "description": "जटिल अवधारणाओं की समझ को बढ़ाने के लिए सहज आरेख और दृश्य सहायक सामग्री बनाएं।",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "आसान साझाकरण",
+        "description": "सहकर्मियों, छात्रों या किसी भी ऐसे व्यक्ति के साथ तुरंत व्याख्याएं साझा करें जिन्हें समझने की आवश्यकता है।",
+        "icon": "RiShareLine"
+      },
+      {
+        "title": "ज्ञान पुस्तकालय",
+        "description": "भविष्य के संदर्भ और निरंतर सीखने के लिए अपनी व्याख्याओं को सहेजें और व्यवस्थित करें।",
+        "icon": "RiBookLine"
+      }
+    ],
+    "className": "grid grid-cols-1 md:grid-cols-2 gap-8"
+  },
+  "stats": {
+    "name": "stats",
+    "label": "आंकड़े",
+    "title": "लोग HowToExplain को पसंद करते हैं",
+    "description": "जटिल विषयों को सरल और समझने योग्य बनाने के लिए",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "सक्रिय उपयोगकर्ता",
+        "label": "1K+",
+        "description": "दैनिक उपयोगकर्ता"
+      },
+      {
+        "title": "व्याख्याएं",
+        "label": "10K+",
+        "description": "उत्पन्न की गईं"
+      },
+      {
+        "title": "औसत",
+        "label": "4.7",
+        "description": "उपयोगकर्ता रेटिंग"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "मूल्य",
+    "title": "मूल्य",
+    "description": "ShipAny की सभी सुविधाएं प्राप्त करें, अपने AI SaaS स्टार्टअप को तेजी से लॉन्च करें।",
+    "groups": [],
+    "items": [
+      {
+        "title": "स्टार्टर",
+        "description": "अपने पहले SaaS स्टार्टअप के साथ शुरुआत करें।",
+        "features_title": "शामिल है",
+        "features": [
+          "100 क्रेडिट्स, 1 महीने के लिए मान्य",
+          "NextJS बॉयलरप्लेट",
+          "SEO-अनुकूल संरचना",
+          "Stripe के साथ भुगतान",
+          "Supabase के साथ डेटा स्टोरेज",
+          "Google OAuth और वन-टैप लॉगिन",
+          "बहुभाषी समर्थन"
+        ],
+        "interval": "one-time",
+        "amount": 9900,
+        "cn_amount": 69900,
+        "currency": "USD",
+        "price": "$99",
+        "original_price": "$199",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "एक बार भुगतान करें। असीमित प्रोजेक्ट बनाएं!",
+        "button": {
+          "title": "ShipAny प्राप्त करें",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter",
+        "product_name": "ShipAny Boilerplate Starter",
+        "credits": 100,
+        "valid_months": 1,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
+      },
+      {
+        "title": "स्टैंडर्ड",
+        "description": "अपने SaaS स्टार्टअप को तेजी से लॉन्च करें।",
+        "label": "लोकप्रिय",
+        "features_title": "स्टार्टर की सभी सुविधाओं के साथ",
+        "features": [
+          "200 क्रेडिट्स, 3 महीने के लिए मान्य",
+          "Vercel या Cloudflare के साथ डिप्लॉय",
+          "गोपनीयता और नियम-शर्तों का जनरेशन",
+          "Google Analytics एकीकरण",
+          "Google Search Console एकीकरण",
+          "Discord समुदाय",
+          "आपके पहले लॉन्च के लिए तकनीकी सहायता",
+          "आजीवन अपडेट"
+        ],
+        "tip": "एक बार भुगतान करें। असीमित प्रोजेक्ट बनाएं!",
+        "button": {
+          "title": "ShipAny प्राप्त करें"
+        },
+        "product_id": "standard",
+        "product_name": "ShipAny Boilerplate Standard",
+        "credits": 200,
+        "valid_months": 3,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
+      },
+      {
+        "title": "प्रीमियम",
+        "description": "कोई भी AI SaaS स्टार्टअप लॉन्च करें।",
+        "features_title": "स्टैंडर्ड की सभी सुविधाओं के साथ",
+        "features": [
+          "300 क्रेडिट्स, 1 वर्ष के लिए मान्य",
+          "AI के साथ व्यावसायिक कार्य",
+          "उपयोगकर्ता केंद्र",
+          "क्रेडिट सिस्टम",
+          "आपके SaaS के लिए API बिक्री",
+          "एडमिन सिस्टम",
+          "प्राथमिकता तकनीकी सहायता"
+        ],
+        "tip": "एक बार भुगतान करें। असीमित प्रोजेक्ट बनाएं!",
+        "button": {
+          "title": "ShipAny प्राप्त करें"
+        },
+        "product_id": "premium",
+        "product_name": "ShipAny Boilerplate Premium",
+        "credits": 300,
+        "valid_months": 12,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
+      }
+    ],
+    "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "प्रशंसापत्र",
+    "title": "उपयोगकर्ता HowToExplain के बारे में क्या कहते हैं",
+    "description": "जटिल विषयों को सरल बनाने के लिए HowToExplain का उपयोग करने वाले शिक्षकों, छात्रों और पेशेवरों से सुनें।",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Chen",
+        "label": "हाई स्कूल शिक्षक",
+        "description": "HowToExplain मुझे अपने छात्रों के लिए स्पष्ट, उम्र के अनुसार उपयुक्त व्याख्याएं बनाने में मदद करता है। इसके द्वारा उत्पन्न दृश्य सहायक सामग्री और उदाहरणों के साथ जटिल विज्ञान की अवधारणाएं समझने में बहुत आसान हो जाती हैं।",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Dr. Rachel Kim",
+        "label": "विश्वविद्यालय प्रोफेसर",
+        "description": "यह टूल शैक्षणिक संचार के लिए गेम-चेंजर है। मैं इसका उपयोग छात्रों से लेकर सहयोगी शोधकर्ताओं तक विभिन्न दर्शकों को जटिल शोध अवधारणाओं को समझाने के लिए करती हूं।",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Mark Thompson",
+        "label": "कंटेंट क्रिएटर",
+        "description": "एक शैक्षिक कंटेंट क्रिएटर के रूप में, HowToExplain बेहद मूल्यवान है। यह मुझे जटिल विषयों को अपने दर्शकों के लिए आकर्षक, आसानी से समझने योग्य व्याख्याओं में बदलने में मदद करता है।",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "Lisa Garcia",
+        "label": "अभिभावक",
+        "description": "मैं अपने बच्चों के होमवर्क में मदद करने के लिए HowToExplain का उपयोग करती हूं। यह अद्भुत है कि यह कठिन अवधारणाओं को बच्चों के लिए समझने योग्य बना सकता है।",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "James Wilson",
+        "label": "तकनीकी लेखक",
+        "description": "तकनीकी दस्तावेज़ीकरण के लिए एकदम सही। यह मुझे जटिल तकनीकी अवधारणाओं को स्पष्ट व्याख्याओं में बदलने में मदद करता है जिन्हें गैर-तकनीकी हितधारक समझ सकते हैं।",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Emily Zhang",
+        "label": "छात्र",
+        "description": "यह टूल मेरी पढ़ाई के लिए वरदान साबित हुआ है। यह मुझे कठिन अवधारणाओं को तोड़कर और संबंधित उदाहरण देकर समझने में मदद करता है जिनसे मैं जुड़ सकती हूं।",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "अक्सर पूछे जाने वाले प्रश्न",
+    "title": "HowToExplain के बारे में अक्सर पूछे जाने वाले प्रश्न",
+    "description": "कोई और प्रश्न है? Discord या ईमेल पर हमसे संपर्क करें।",
+    "items": [
+      {
+        "title": "HowToExplain वास्तव में क्या है और यह कैसे काम करता है?",
+        "description": "HowToExplain एक AI-संचालित टूल है जो जटिल विषयों को समझने में आसान बनाने में मदद करता है। यह सामग्री का विश्लेषण करने और दृश्य सहायक सामग्री और उदाहरणों के साथ स्पष्ट, दर्शक-उपयुक्त व्याख्याएं उत्पन्न करने के लिए उन्नत AI का उपयोग करता है।"
+      },
+      {
+        "title": "HowToExplain का उपयोग करने से किसे लाभ हो सकता है?",
+        "description": "HowToExplain शिक्षकों, छात्रों, अभिभावकों, कंटेंट क्रिएटर्स और पेशेवरों के लिए उपयोगी है जिन्हें विभिन्न दर्शकों को जटिल अवधारणाओं को समझाने की आवश्यकता होती है। यह विशेष रूप से शिक्षा, तकनीकी लेखन और पेशेवर संचार में सहायक है।"
+      },
+      {
+        "title": "मैं HowToExplain के साथ किस प्रकार की सामग्री समझा सकता/सकती हूं?",
+        "description": "आप लगभग किसी भी जटिल विषय को समझा सकते हैं - वैज्ञानिक अवधारणाओं से लेकर तकनीकी दस्तावेज़ीकरण, शैक्षणिक विषयों से लेकर व्यावसायिक अवधारणाओं तक। AI व्याख्या को आपके दर्शकों की समझ के स्तर के अनुरूप बनाता है।"
+      },
+      {
+        "title": "दर्शक अनुकूलन सुविधा कैसे काम करती है?",
+        "description": "बस अपने लक्षित दर्शकों (बच्चे, शुरुआती, या पेशेवर) का चयन करें, और हमारी AI स्वचालित रूप से भाषा, उदाहरणों और व्याख्या की जटिलता के स्तर को उनकी समझ के स्तर के अनुरूप समायोजित कर देती है।"
+      },
+      {
+        "title": "HowToExplain किन प्रारूपों में व्याख्या प्रदान करता है?",
+        "description": "HowToExplain कई प्रारूपों में व्याख्याएं उत्पन्न करता है जिसमें पाठ, बुलेट पॉइंट, आरेख, माइंड मैप और दृश्य सहायक सामग्री शामिल हैं। यह बहु-प्रारूप दृष्टिकोण विभिन्न सीखने की शैलियों के लिए बेहतर समझ सुनिश्चित करने में मदद करता है।"
+      },
+      {
+        "title": "क्या मैं अपनी व्याख्याओं को सहेज और साझा कर सकता/सकती हूं?",
+        "description": "हाँ! आप व्याख्याओं को अपने व्यक्तिगत ज्ञान पुस्तकालय में सहेज सकते हैं, उन्हें दूसरों के साथ साझा कर सकते हैं, और यहां तक कि विभिन्न दर्शकों के लिए एक ही व्याख्या के अलग-अलग संस्करण भी बना सकते हैं।"
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "आज से बेहतर व्याख्या करना शुरू करें",
+    "description": "हजारों शिक्षकों, अभिभावकों और पेशेवरों से जुड़ें जो जटिल विषयों को सरल बनाते हैं",
+    "button": "निःशुल्क आज़माएं"
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "HowToExplain",
+      "description": "HowToExplain एक AI-संचालित टूल है जो जटिल विषयों को समझने में आसान बनाता है। शिक्षकों, छात्रों और पेशेवरों के लिए एकदम सही।",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "HowToExplain"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • HowToExplain सर्वाधिकार सुरक्षित।",
+    "nav": {
+      "items": [
+        {
+          "title": "हमारे बारे में",
+          "children": [
+            {
+              "title": "विशेषताएं",
+              "url": "/#feature"
+            },
+            {
+              "title": "यह कैसे काम करता है",
+              "url": "/#usage"
+            },
+            {
+              "title": "मूल्य",
+              "url": "/#pricing"
+            }
+          ]
+        },
+        {
+          "title": "संसाधन",
+          "children": [
+            {
+              "title": "सहायता केंद्र",
+              "url": "https://help.howtoexplain.ai"
+            },
+            {
+              "title": "उदाहरण",
+              "url": "https://howtoexplain.ai/examples"
+            },
+            {
+              "title": "ब्लॉग",
+              "url": "https://blog.howtoexplain.ai"
+            }
+          ]
+        },
+        {
+          "title": "समुदाय",
+          "children": [
+            {
+              "title": "Discord",
+              "url": "https://discord.gg/howtoexplain"
+            },
+            {
+              "title": "Twitter",
+              "url": "https://twitter.com/howtoexplain"
+            },
+            {
+              "title": "GitHub",
+              "url": "https://github.com/howtoexplain"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/howtoexplain",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/howtoexplain",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/howtoexplain",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@howtoexplain.ai",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "गोपनीयता नीति",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "सेवा की शर्तें",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

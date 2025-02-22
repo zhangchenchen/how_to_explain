@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "title": "HowToExplain | 複雑を簡単に",
+    "description": "複雑な概念や記事をわかりやすい説明に変換します。子供、初心者、または簡単な説明が必要な方に最適です。",
+    "keywords": "howToExplain, わかりやすい説明, 知識普及, 概念の簡略化"
+  },
+  "user": {
+    "sign_in": "ログイン",
+    "sign_out": "ログアウト",
+    "credits": "クレジット",
+    "api_keys": "APIキー",
+    "my_orders": "注文履歴"
+  },
+  "sign_modal": {
+    "sign_in_title": "ログイン",
+    "sign_in_description": "アカウントにログイン",
+    "sign_up_title": "新規登録",
+    "sign_up_description": "アカウントを作成",
+    "email_title": "メールアドレス",
+    "email_placeholder": "メールアドレスを入力",
+    "password_title": "パスワード",
+    "password_placeholder": "パスワードを入力",
+    "forgot_password": "パスワードをお忘れですか？",
+    "or": "または",
+    "continue": "続ける",
+    "no_account": "アカウントをお持ちでない方",
+    "email_sign_in": "メールでログイン",
+    "google_sign_in": "Googleでログイン",
+    "github_sign_in": "GitHubでログイン",
+    "close_title": "閉じる",
+    "cancel_title": "キャンセル"
+  },
+  "my_credits": {
+    "title": "マイクレジット",
+    "left_tip": "残りクレジット: {left_credits}",
+    "no_credits": "クレジットがありません",
+    "recharge": "チャージ",
+    "table": {
+      "trans_no": "取引番号",
+      "trans_type": "取引種類",
+      "credits": "クレジット",
+      "updated_at": "更新日時",
+      "status": "状態"
+    }
+  },
+  "api_keys": {
+    "title": "APIキー",
+    "tip": "APIキーは安全に保管してください",
+    "no_api_keys": "APIキーがありません",
+    "create_api_key": "APIキーを作成",
+    "table": {
+      "name": "名前",
+      "key": "キー",
+      "created_at": "作成日時"
+    },
+    "form": {
+      "name": "名前",
+      "name_placeholder": "APIキーの名前",
+      "submit": "送信"
+    }
+  },
+  "blog": {
+    "title": "ブログ",
+    "description": "HowToExplainに関するニュース、リソース、アップデート情報",
+    "read_more_text": "続きを読む"
+  }
+} 

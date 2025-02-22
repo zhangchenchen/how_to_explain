@@ -1,0 +1,21 @@
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .icon {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .nav-item {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+
+[dir="rtl"] .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+[dir="rtl"] .modal {
+  text-align: right;
+} 

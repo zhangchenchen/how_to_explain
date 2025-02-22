@@ -1,21 +1,12 @@
 import {
-  defaultLocale,
-  localeDetection,
-  localePrefix,
-  locales,
-  pathnames,
-} from "./locale";
+  createLocalizedPathnamesNavigation,
+  Pathnames
+} from 'next-intl/navigation';
+import { locales, defaultLocale, pathnames, localePrefix } from './locale';
 
-import { createSharedPathnamesNavigation } from "next-intl/navigation";
-import { defineRouting } from "next-intl/routing";
-
-export const routing = defineRouting({
+export const { Link, redirect, usePathname, useRouter } = createLocalizedPathnamesNavigation({
   locales,
   defaultLocale,
-  localePrefix,
   pathnames,
-  localeDetection,
+  localePrefix
 });
-
-export const { Link, redirect, usePathname, useRouter } =
-  createSharedPathnamesNavigation(routing);

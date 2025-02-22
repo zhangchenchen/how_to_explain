@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "title": "HowToExplain | Rendre le complexe simple",
+    "description": "Transformez des concepts complexes en explications faciles à comprendre. Parfait pour expliquer aux enfants, aux débutants ou à toute personne ayant besoin d'explications simples",
+    "keywords": "howToExplain, explications simples, vulgarisation, simplification des concepts"
+  },
+  "user": {
+    "sign_in": "Se connecter",
+    "sign_out": "Se déconnecter",
+    "credits": "Crédits",
+    "api_keys": "Clés API",
+    "my_orders": "Mes commandes"
+  },
+  "sign_modal": {
+    "sign_in_title": "Connexion",
+    "sign_in_description": "Connectez-vous à votre compte",
+    "sign_up_title": "Inscription",
+    "sign_up_description": "Créer un compte",
+    "email_title": "Email",
+    "email_placeholder": "Entrez votre email",
+    "password_title": "Mot de passe",
+    "password_placeholder": "Entrez votre mot de passe",
+    "forgot_password": "Mot de passe oublié?",
+    "or": "Ou",
+    "continue": "Continuer",
+    "no_account": "Vous n'avez pas de compte?",
+    "email_sign_in": "Se connecter avec Email",
+    "google_sign_in": "Se connecter avec Google",
+    "github_sign_in": "Se connecter avec GitHub",
+    "close_title": "Fermer",
+    "cancel_title": "Annuler"
+  },
+  "my_credits": {
+    "title": "Mes Crédits",
+    "left_tip": "crédits restants: {left_credits}",
+    "no_credits": "Aucun crédit",
+    "recharge": "Recharger",
+    "table": {
+      "trans_no": "N° de transaction",
+      "trans_type": "Type de transaction",
+      "credits": "Crédits",
+      "updated_at": "Mis à jour le",
+      "status": "Statut"
+    }
+  },
+  "api_keys": {
+    "title": "Clés API",
+    "tip": "Veuillez garder votre clé API en sécurité",
+    "no_api_keys": "Aucune clé API",
+    "create_api_key": "Créer une clé API",
+    "table": {
+      "name": "Nom",
+      "key": "Clé",
+      "created_at": "Créé le"
+    },
+    "form": {
+      "name": "Nom",
+      "name_placeholder": "Nom de la clé API",
+      "submit": "Soumettre"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Actualités, ressources et mises à jour sur HowToExplain",
+    "read_more_text": "Lire la suite"
+  }
+} 

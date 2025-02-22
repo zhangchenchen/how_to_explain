@@ -1,12 +1,12 @@
 {
-  "template": "shipany-template-one",
+  "template": "How to Explain",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "ShipAny",
+      "title": "How to Explain",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "HowtoExplain"
       },
       "url": "/zh"
     },
@@ -45,63 +45,29 @@
         }
       ]
     },
-    "buttons": [
-      {
-        "title": "获取 ShipAny",
-        "url": "https://shipany.ai",
-        "target": "_blank",
-        "variant": "link",
-        "icon": "RiArrowRightUpLine"
-      }
-    ],
     "show_sign": true,
     "show_theme": true,
     "show_locale": true
   },
   "hero": {
-    "title": "让复杂概念变得简单易懂",
-    "subtitle": "使用AI将任何复杂概念转化为清晰、简单的解释",
+    "title": "复杂知识，轻松理解",
     "description": "1. 输入任何复杂问题或网址链接<br />2. 选择您的目标受众（儿童、初学者或非专业人士）<br />3. 点击开始按钮获取解释",
-    "announcement": {
-      "label": "2025",
-      "title": "🎉 新年快乐",
-      "url": "/#pricing"
-    },
-    "tip": "🎁 2025年前五折优惠",
-    "buttons": [
-      {
-        "title": "立即开始",
-        "icon": "RiFlashlightFill",
-        "url": "/#pricing",
-        "target": "_self",
-        "variant": "default"
-      },
-      {
-        "title": "加入 Discord",
-        "icon": "RiDiscordFill",
-        "url": "https://discord.gg/HQNnrzjZQS",
-        "target": "_blank",
-        "variant": "outline"
-      }
-    ],
     "show_happy_users": true,
     "show_badge": false
   },
   "branding": {
-    "title": "开始",
-    "description": "使用生产就绪的模板和基础设施,在几小时内启动您的 AI 创业项目",
     "buttons": [
       {
         "title": "立即开始",
-        "url": "/#pricing", 
+        "url": "/#pricing",
         "icon": "RiRocketLine",
         "variant": "default",
-        "size": "lg", 
+        "size": "lg",
         "className": "text-lg px-8 py-6"
       },
       {
         "title": "查看演示",
-        "url": "https://demo.shipany.ai",
+        "url": "https://demo.howtoexplain.xyz",
         "icon": "RiPlayCircleLine",
         "variant": "outline",
         "target": "_blank",
@@ -114,37 +80,37 @@
     "name": "introduce",
     "title": "什么是 HowToExplain",
     "label": "介绍",
-    "description": "HowToExplain 是一个AI驱动的工具，能够将复杂的主题转化为清晰、易懂的解释，适应不同受众的需求。",
+    "description": "HowToExplain 是您的智能解释助手，可以根据不同受众的需求，将复杂的知识转化为通俗易懂的内容。",
     "image": {
       "src": "/imgs/features/1.png"
     },
     "items": [
       {
         "title": "智能简化",
-        "description": "我们的AI技术将复杂概念分解成简单、易消化的解释，根据受众水平量身定制。",
+        "description": "运用先进的AI技术，将晦涩难懂的概念转化为清晰明了的解释，让知识传递更加高效。",
         "icon": "RiBrainLine"
       },
       {
         "title": "受众导向",
-        "description": "为不同受众定制解释 - 从儿童到初学者再到专业人士。",
+        "description": "智能调整解释方式，无论是给孩子讲故事，还是与专业人士交流，都能准确传达核心内容。",
         "icon": "RiGroupLine"
       },
       {
         "title": "即时结果",
-        "description": "立即获得清晰、结构化的解释，节省大量研究和简化工作的时间。",
+        "description": "一键生成通俗易懂的解释，让您省去反复推敲措辞的烦恼，提高沟通效率。",
         "icon": "RiLightbulbLine"
       }
     ]
   },
   "benefit": {
     "name": "benefit",
-    "title": "为什么选择 HowToExplain",
+    "title": "选择 HowToExplain 的理由",
     "label": "优势",
-    "description": "体验AI驱动的解释能力，让复杂主题人人都能理解。",
+    "description": "让AI成为您的解释专家，帮助每个人都能轻松理解复杂知识。",
     "items": [
       {
-        "title": "AI驱动理解",
-        "description": "我们的先进AI技术分析复杂内容，创建清晰、准确的解释，让每个人都能理解。",
+        "title": "AI智能理解",
+        "description": "强大的AI引擎深入分析内容要点，生成准确、易懂的解释，让知识传递不再有障碍。",
         "icon": "RiAiLine",
         "image": {
           "src": "/imgs/features/2.png"
@@ -242,94 +208,6 @@
         "title": "知识库",
         "description": "保存并组织您的解释，以供将来参考和持续学习。",
         "icon": "RiBookLine"
-      }
-    ]
-  },
-  "showcase": {
-    "name": "showcase",
-    "title": "使用 ShipAny 构建的 AI SaaS 创业项目",
-    "description": "易于使用，快速发布。",
-    "items": [
-      {
-        "title": "ThinkAny",
-        "description": "AI 搜索引擎",
-        "url": "https://thinkany.ai",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/7.png"
-        }
-      },
-      {
-        "title": "HeyBeauty",
-        "description": "AI 虚拟试妆",
-        "url": "https://heybeauty.ai",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/5.png"
-        }
-      },
-      {
-        "title": "AI Wallpaper",
-        "description": "AI 壁纸生成器",
-        "url": "https://aiwallpaper.shop",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/1.png"
-        }
-      },
-      {
-        "title": "AI Cover",
-        "description": "AI 封面生成器",
-        "url": "https://aicover.design",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/2.png"
-        }
-      },
-      {
-        "title": "GPTs Works",
-        "description": "GPTs 目录",
-        "url": "https://gpts.works",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/3.png"
-        }
-      },
-      {
-        "title": "Melodisco",
-        "description": "AI 音乐播放器",
-        "url": "https://melodis.co",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/4.png"
-        }
-      },
-      {
-        "title": "Pagen",
-        "description": "AI 落地页生成器",
-        "url": "https://pagen.so",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/6.png"
-        }
-      },
-      {
-        "title": "SoraFM",
-        "description": "AI 视频生成器",
-        "url": "https://sorafm.trys.ai",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/8.png"
-        }
-      },
-      {
-        "title": "PodLM",
-        "description": "AI 播客生成器",
-        "url": "https://podlm.ai",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/9.png"
-        }
       }
     ]
   },
@@ -529,7 +407,7 @@
     "items": [
       {
         "title": "HowToExplain 究竟是什么，它是如何工作的？",
-        "description": "HowToExplain 是一个AI驱动的工具，帮助使复杂主题变得易于理解。它使用先进的AI技术分析内容，生成清晰的、适合受众的解释，并配有视觉辅助和示例。"
+        "description": "HowToExplain 是您的智能解释助手。它能理解您输入的复杂内容，并根据目标受众的特点，生成清晰易懂的解释，配上恰当的图示和例子，让知识传递变得轻而易举。"
       },
       {
         "title": "谁可以从使用 HowToExplain 中受益？",
@@ -555,22 +433,9 @@
   },
   "cta": {
     "name": "cta",
-    "title": "立即开始更好地解释",
-    "description": "加入数千名让复杂主题变得简单的教育工作者、家长和专业人士",
-    "buttons": [
-      {
-        "title": "获取 ShipAny",
-        "url": "https://shipany.ai",
-        "target": "_blank",
-        "icon": "GoArrowUpRight"
-      },
-      {
-        "title": "阅读文档",
-        "url": "https://docs.shipany.ai",
-        "target": "_blank",
-        "variant": "outline"
-      }
-    ]
+    "title": "让解释变得简单有趣",
+    "description": "已有数千名教育工作者、家长和专业人士正在使用 HowToExplain，开启智能解释之旅",
+    "button": "免费试用"
   },
   "footer": {
     "name": "footer",
@@ -653,7 +518,7 @@
         {
           "title": "X",
           "icon": "RiTwitterXFill",
-          "url": "https://x.com/howtoexplain",
+          "url": "https://twitter.com/howtoexplain",
           "target": "_blank"
         },
         {
@@ -671,7 +536,7 @@
         {
           "title": "邮箱",
           "icon": "RiMailLine",
-          "url": "mailto:support@howtoexplain.ai",
+          "url": "mailto:support@howtoexplain.xyz",
           "target": "_self"
         }
       ]

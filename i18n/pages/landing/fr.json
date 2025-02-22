@@ -13,12 +13,12 @@
     "nav": {
       "items": [
         {
-          "title": "Features",
+          "title": "Fonctionnalités",
           "url": "/#feature",
           "icon": "HiOutlineSparkles"
         },
         {
-          "title": "Pricing",
+          "title": "Tarifs",
           "url": "/#pricing",
           "icon": "MdPayment"
         },
@@ -29,14 +29,14 @@
           "children": [
             {
               "title": "AI Wallpaper Shop",
-              "description": "AI Wallpaper Generator",
+              "description": "Générateur de Fonds d'Écran IA",
               "icon": "MdOutlineWallpaper",
               "url": "https://aiwallpaper.shop",
               "target": "_blank"
             },
             {
               "title": "AI Cover Generator",
-              "description": "AI Cover Generator",
+              "description": "Générateur de Couvertures IA",
               "icon": "",
               "url": "https://aicover.design",
               "target": "_blank"
@@ -50,8 +50,8 @@
     "show_locale": true
   },
   "hero": {
-    "title": "Make Everything Easy to Understand",
-    "description": "1. Input any complex question or url link<br />2. Choose your target audience (kids, beginners)<br />3. Click start button to get your explanation",
+    "title": "Rendez Tout Facile à Comprendre",
+    "description": "1. Saisissez une question complexe ou un lien URL<br />2. Choisissez votre public cible (enfants, débutants)<br />3. Cliquez sur démarrer pour obtenir votre explication",
     "feature": {
       "items": [
         {
@@ -65,7 +65,7 @@
   "branding": {
     "buttons": [
       {
-        "title": "Get Started",
+        "title": "Commencer",
         "url": "/#pricing",
         "icon": "RiRocketLine",
         "variant": "default",
@@ -73,9 +73,9 @@
         "className": "text-lg px-8 py-6"
       },
       {
-        "title": "View Demo",
+        "title": "Voir la Démo",
         "url": "https://demo.shipany.ai",
-        "icon": "RiPlayCircleLine", 
+        "icon": "RiPlayCircleLine",
         "variant": "outline",
         "target": "_blank",
         "size": "lg",
@@ -85,27 +85,27 @@
   },
   "introduce": {
     "name": "introduce",
-    "title": "What is HowToExplain",
-    "label": "Introduce",
-    "description": "HowToExplain is an AI-powered tool that transforms complex topics into clear, easy-to-understand explanations for different audiences.",
+    "title": "Qu'est-ce que HowToExplain",
+    "label": "Introduction",
+    "description": "HowToExplain est un outil alimenté par l'IA qui transforme des sujets complexes en explications claires et faciles à comprendre pour différents publics.",
     "image": {
       "src": "/imgs/features/1.png"
     },
     "items": [
       {
-        "title": "Smart Simplification",
-        "description": "Our AI technology breaks down complex concepts into simple, digestible explanations tailored to your audience's level.",
+        "title": "Simplification Intelligente",
+        "description": "Notre technologie IA décompose les concepts complexes en explications simples et digestes, adaptées au niveau de votre public.",
         "icon": "RiBrainLine",
         "className": "flex items-center gap-4"
       },
       {
-        "title": "Audience-Focused",
-        "description": "Customize explanations for different audiences - from kids to beginners to professionals.",
+        "title": "Adapté au Public",
+        "description": "Personnalisez les explications pour différents publics - des enfants aux débutants jusqu'aux professionnels.",
         "icon": "RiGroupLine"
       },
       {
-        "title": "Instant Results",
-        "description": "Get clear, structured explanations instantly, saving hours of research and simplification work.",
+        "title": "Résultats Instantanés",
+        "description": "Obtenez des explications claires et structurées instantanément, économisant des heures de recherche et de simplification.",
         "icon": "RiLightbulbLine"
       }
     ],
@@ -113,29 +113,29 @@
   },
   "benefit": {
     "name": "benefit",
-    "title": "Why Choose HowToExplain",
-    "label": "Benefits",
-    "description": "Experience the power of AI-driven explanations that make complex topics accessible to everyone.",
+    "title": "Pourquoi Choisir HowToExplain",
+    "label": "Avantages",
+    "description": "Découvrez la puissance des explications basées sur l'IA qui rendent les sujets complexes accessibles à tous.",
     "items": [
       {
-        "title": "AI-Powered Understanding",
-        "description": "Our advanced AI technology analyzes complex content and creates clear, accurate explanations that anyone can understand.",
+        "title": "Compréhension Assistée par IA",
+        "description": "Notre technologie IA avancée analyse le contenu complexe et crée des explications claires et précises que tout le monde peut comprendre.",
         "icon": "RiAiLine",
         "image": {
           "src": "/imgs/features/2.png"
         }
       },
       {
-        "title": "Multi-Level Adaptation",
-        "description": "Get explanations perfectly tailored for different knowledge levels - whether you're explaining to kids, students, or professionals.",
+        "title": "Adaptation Multi-niveaux",
+        "description": "Obtenez des explications parfaitement adaptées à différents niveaux de connaissance - que ce soit pour des enfants, des étudiants ou des professionnels.",
         "icon": "RiUserSettingsLine",
         "image": {
           "src": "/imgs/features/3.png"
         }
       },
       {
-        "title": "Structured Visualization",
-        "description": "Get explanations in well-organized formats with charts, diagrams, and bullet points - making complex information visually digestible.",
+        "title": "Visualisation Structurée",
+        "description": "Obtenez des explications dans des formats bien organisés avec des graphiques, des diagrammes et des points clés - rendant l'information complexe visuellement digestible.",
         "icon": "RiLayoutLine",
         "image": {
           "src": "/imgs/features/4.png"
@@ -145,8 +145,8 @@
   },
   "usage": {
     "name": "usage",
-    "title": "How to Use HowToExplain",
-    "description": "Get clear explanations in three simple steps:",
+    "title": "Comment Utiliser HowToExplain",
+    "description": "Obtenez des explications claires en trois étapes simples :",
     "image": {
       "src": "/imgs/features/1.png"
     },
@@ -154,8 +154,8 @@
     "text_align": "center",
     "items": [
       {
-        "title": "Input Your Content",
-        "description": "Paste any complex text, article URL, or type your question that needs explanation.",
+        "title": "Saisissez Votre Contenu",
+        "description": "Collez un texte complexe, une URL d'article ou tapez votre question nécessitant une explication.",
         "image": {
           "src": "/imgs/features/5.jpeg"
         },
@@ -163,22 +163,22 @@
         "className": "flex items-center gap-4"
       },
       {
-        "title": "Select Your Audience",
-        "description": "Choose who you're explaining to - kids, beginners, or professionals. Our AI adapts the explanation accordingly.",
+        "title": "Choisissez Votre Public",
+        "description": "Sélectionnez votre public cible - enfants, débutants ou professionnels. Notre IA adapte l'explication en conséquence.",
         "image": {
           "src": "/imgs/features/6.png"
         }
       },
       {
-        "title": "Get Visual Explanation",
-        "description": "Receive a clear, structured explanation with diagrams, bullet points, and examples that match your audience's level.",
+        "title": "Obtenez une Explication Visuelle",
+        "description": "Recevez une explication claire et structurée avec des diagrammes, des points clés et des exemples adaptés au niveau de votre public.",
         "image": {
           "src": "/imgs/features/7.png"
         }
       },
       {
-        "title": "Share and Learn",
-        "description": "Save your explanations, share them with others, or generate new versions for different audiences.",
+        "title": "Partager et Apprendre",
+        "description": "Sauvegardez vos explications, partagez-les avec d'autres ou générez de nouvelles versions pour différents publics.",
         "image": {
           "src": "/imgs/features/8.png"
         }
@@ -188,38 +188,38 @@
   },
   "feature": {
     "name": "feature",
-    "title": "Key Features of HowToExplain",
-    "description": "Advanced AI capabilities to make complex topics simple and understandable.",
+    "title": "Fonctionnalités Clés de HowToExplain",
+    "description": "Des capacités d'IA avancées pour rendre les sujets complexes simples et compréhensibles.",
     "items": [
       {
-        "title": "Smart Content Analysis",
-        "description": "Advanced AI algorithms that understand context and identify key concepts for explanation.",
+        "title": "Analyse Intelligente du Contenu",
+        "description": "Algorithmes d'IA avancés qui comprennent le contexte et identifient les concepts clés pour l'explication.",
         "icon": "RiBrainLine",
         "className": "flex items-center gap-4"
       },
       {
-        "title": "Multi-Format Output",
-        "description": "Generate explanations in various formats - text, bullet points, diagrams, and mind maps.",
+        "title": "Sortie Multi-Format",
+        "description": "Générez des explications dans différents formats - texte, points clés, diagrammes et cartes mentales.",
         "icon": "RiLayoutLine"
       },
       {
-        "title": "Audience Adaptation",
-        "description": "Automatically adjust language and examples based on the target audience's level.",
+        "title": "Adaptation au Public",
+        "description": "Ajustement automatique du langage et des exemples en fonction du niveau du public cible.",
         "icon": "RiGroupLine"
       },
       {
-        "title": "Visual Learning",
-        "description": "Create intuitive diagrams and visual aids to enhance understanding of complex concepts.",
+        "title": "Apprentissage Visuel",
+        "description": "Créez des diagrammes intuitifs et des supports visuels pour améliorer la compréhension des concepts complexes.",
         "icon": "RiImageLine"
       },
       {
-        "title": "Easy Sharing",
-        "description": "Share explanations instantly with colleagues, students, or anyone who needs to understand.",
+        "title": "Partage Facile",
+        "description": "Partagez instantanément les explications avec vos collègues, étudiants ou toute personne ayant besoin de comprendre.",
         "icon": "RiShareLine"
       },
       {
-        "title": "Knowledge Library",
-        "description": "Save and organize your explanations for future reference and continuous learning.",
+        "title": "Bibliothèque de Connaissances",
+        "description": "Sauvegardez et organisez vos explications pour référence future et apprentissage continu.",
         "icon": "RiBookLine"
       }
     ],
@@ -227,47 +227,47 @@
   },
   "stats": {
     "name": "stats",
-    "label": "Stats",
-    "title": "People Love HowToExplain",
-    "description": "for making complex topics simple and understandable",
+    "label": "Statistiques",
+    "title": "Les Utilisateurs Adorent HowToExplain",
+    "description": "pour rendre les sujets complexes simples et compréhensibles",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "Active Users",
+        "title": "Utilisateurs Actifs",
         "label": "1K+",
-        "description": "Daily Users"
+        "description": "Utilisateurs Quotidiens"
       },
       {
-        "title": "Explanations",
+        "title": "Explications",
         "label": "10K+",
-        "description": "Generated"
+        "description": "Générées"
       },
       {
-        "title": "Average",
+        "title": "Moyenne",
         "label": "4.7",
-        "description": "User Rating"
+        "description": "Note Utilisateur"
       }
     ]
   },
   "pricing": {
     "name": "pricing",
-    "label": "Pricing",
-    "title": "Pricing",
-    "description": "Get all features of ShipAny, Ship your AI SaaS startups fast.",
+    "label": "Tarifs",
+    "title": "Tarifs",
+    "description": "Accédez à toutes les fonctionnalités de ShipAny, lancez rapidement vos startups SaaS IA.",
     "groups": [],
     "items": [
       {
-        "title": "Starter",
-        "description": "Get started with your first SaaS startup.",
-        "features_title": "Includes",
+        "title": "Débutant",
+        "description": "Commencez avec votre première startup SaaS.",
+        "features_title": "Inclut",
         "features": [
-          "100 credits, valid for 1 month",
-          "NextJS boilerplate",
-          "SEO-friendly structure",
-          "Payment with Stripe",
-          "Data storage with Supabase",
-          "Google Oauth & One-Tap Login",
-          "i18n support"
+          "100 crédits, valables 1 mois",
+          "Structure NextJS",
+          "Structure optimisée pour le SEO",
+          "Paiement avec Stripe",
+          "Stockage de données avec Supabase",
+          "Google Oauth & Connexion One-Tap",
+          "Support i18n"
         ],
         "interval": "one-time",
         "amount": 9900,
@@ -277,9 +277,9 @@
         "original_price": "$199",
         "unit": "USD",
         "is_featured": false,
-        "tip": "Pay once. Build unlimited projects!",
+        "tip": "Payez une fois. Créez des projets illimités !",
         "button": {
-          "title": "Get ShipAny",
+          "title": "Obtenir ShipAny",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
@@ -291,18 +291,18 @@
       },
       {
         "title": "Standard",
-        "description": "Ship Fast with your SaaS Startups.",
-        "label": "Popular",
-        "features_title": "Everything in Starter, plus",
+        "description": "Lancez rapidement vos startups SaaS.",
+        "label": "Populaire",
+        "features_title": "Tout ce qui est inclus dans Débutant, plus",
         "features": [
-          "200 credits, valid for 3 month",
-          "Deploy with Vercel or Cloudflare",
-          "Generation of Privacy & Terms",
-          "Google Analytics Integration",
-          "Google Search Console Integration",
-          "Discord community",
-          "Technical support for your first ship",
-          "Lifetime updates"
+          "200 crédits, valables 3 mois",
+          "Déploiement avec Vercel ou Cloudflare",
+          "Génération des Conditions et Confidentialité",
+          "Intégration Google Analytics",
+          "Intégration Google Search Console",
+          "Communauté Discord",
+          "Support technique pour votre premier lancement",
+          "Mises à jour à vie"
         ],
         "interval": "one-time",
         "amount": 19900,
@@ -326,16 +326,16 @@
       },
       {
         "title": "Premium",
-        "description": "Ship Any AI SaaS Startups.",
-        "features_title": "Everything in Standard, plus",
+        "description": "Lancez n'importe quelle startup SaaS IA.",
+        "features_title": "Tout ce qui est inclus dans Standard, plus",
         "features": [
-          "300 credits, valid for 1 year",
-          "Business Functions with AI",
-          "User Center",
-          "Credits System",
-          "API Sales for your SaaS",
-          "Admin System",
-          "Priority Technical Support"
+          "300 crédits, valables 1 an",
+          "Fonctions commerciales avec IA",
+          "Centre utilisateur",
+          "Système de crédits",
+          "Vente d'API pour votre SaaS",
+          "Système d'administration",
+          "Support technique prioritaire"
         ],
         "interval": "one-time",
         "amount": 29900,
@@ -362,31 +362,31 @@
   },
   "testimonial": {
     "name": "testimonial",
-    "label": "Testimonial",
-    "title": "What Users Say About HowToExplain",
-    "description": "Hear from educators, students, and professionals who use HowToExplain to make complex topics simple.",
+    "label": "Témoignages",
+    "title": "Ce que disent les utilisateurs de HowToExplain",
+    "description": "Écoutez les enseignants, étudiants et professionnels qui utilisent HowToExplain pour simplifier les sujets complexes.",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "Sarah Chen",
-        "label": "High School Teacher",
-        "description": "HowToExplain helps me create clear, age-appropriate explanations for my students. Complex science concepts become much easier to understand with the visual aids and examples it generates.",
+        "label": "Professeur de Lycée",
+        "description": "HowToExplain m'aide à créer des explications claires et adaptées à l'âge de mes élèves. Complex science concepts become much easier to understand with the visual aids and examples it generates.",
         "image": {
           "src": "/imgs/users/1.png"
         }
       },
       {
         "title": "Dr. Rachel Kim",
-        "label": "University Professor",
-        "description": "This tool is a game-changer for academic communication. I use it to explain complex research concepts to different audiences, from students to fellow researchers.",
+        "label": "Professeur d'Université",
+        "description": "Cet outil révolutionne la communication académique. Je l'utilise pour expliquer des concepts de recherche complexes à différents publics, des étudiants aux chercheurs.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
         "title": "Mark Thompson",
-        "label": "Content Creator",
-        "description": "As an educational content creator, HowToExplain is invaluable. It helps me break down complex topics into engaging, easy-to-follow explanations for my audience.",
+        "label": "Créateur de Contenu",
+        "description": "En tant que créateur de contenu éducatif, HowToExplain est inestimable. Il m'aide à décomposer des sujets complexes en explications captivantes et faciles à suivre pour mon public.",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -420,16 +420,16 @@
   "faq": {
     "name": "faq",
     "label": "FAQ",
-    "title": "Frequently Asked Questions About HowToExplain",
-    "description": "Have another question? Contact us on Discord or by email.",
+    "title": "Questions Fréquentes sur HowToExplain",
+    "description": "Vous avez une autre question ? Contactez-nous sur Discord ou par email.",
     "items": [
       {
-        "title": "What exactly is HowToExplain and how does it work?",
+        "title": "Qu'est-ce exactement que HowToExplain et comment fonctionne-t-il ?",
         "description": "HowToExplain is an AI-powered tool that helps make complex topics easy to understand. It uses advanced AI to analyze content and generate clear, audience-appropriate explanations with visual aids and examples."
       },
       {
-        "title": "Who can benefit from using HowToExplain?",
-        "description": "HowToExplain is useful for teachers, students, parents, content creators, and professionals who need to explain complex concepts to different audiences. It's particularly helpful in education, technical writing, and professional communication."
+        "title": "Qui peut bénéficier de HowToExplain ?",
+        "description": "HowToExplain est utile pour les enseignants, les étudiants, les parents, les créateurs de contenu et les professionnels qui doivent expliquer des concepts complexes à différents publics. Il est particulièrement utile dans l'éducation, la rédaction technique et la communication professionnelle."
       },
       {
         "title": "What types of content can I explain with HowToExplain?",
@@ -451,61 +451,55 @@
   },
   "cta": {
     "name": "cta",
-    "title": "Start Explaining Better Today",
-    "description": "Join thousands of educators, parents, and professionals who make complex topics simple",
-    "button": "Try For Free"
+    "title": "Commencez à Mieux Expliquer Aujourd'hui",
+    "description": "Rejoignez des milliers d'éducateurs, parents et professionnels qui simplifient les sujets complexes",
+    "button": "Essayer Gratuitement"
   },
   "footer": {
     "name": "footer",
     "brand": {
       "title": "HowToExplain",
-      "description": "HowToExplain is an AI-powered tool that makes complex topics easy to understand. Perfect for educators, students, and professionals.",
+      "description": "HowToExplain est un outil alimenté par l'IA qui rend les sujets complexes faciles à comprendre. Parfait pour les éducateurs, les étudiants et les professionnels.",
       "logo": {
         "src": "/logo.png",
         "alt": "HowToExplain"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • HowToExplain All rights reserved.",
+    "copyright": "© 2025 • HowToExplain Tous droits réservés.",
     "nav": {
       "items": [
         {
-          "title": "About",
+          "title": "À propos",
           "children": [
             {
-              "title": "Features",
-              "url": "/#feature",
-              "target": "_self"
+              "title": "Fonctionnalités",
+              "url": "/#feature"
             },
             {
-              "title": "How It Works",
-              "url": "/#usage",
-              "target": "_self"
+              "title": "Comment ça marche",
+              "url": "/#usage"
             },
             {
-              "title": "Pricing",
-              "url": "/#pricing",
-              "target": "_self"
+              "title": "Tarifs",
+              "url": "/#pricing"
             }
           ]
         },
         {
-          "title": "Resources",
+          "title": "Ressources",
           "children": [
             {
-              "title": "Help Center",
-              "url": "https://help.howtoexplain.ai",
-              "target": "_blank"
+              "title": "Centre d'aide",
+              "url": "https://help.howtoexplain.ai"
             },
             {
-              "title": "Examples",
-              "url": "https://howtoexplain.ai/examples",
-              "target": "_blank"
+              "title": "Exemples",
+              "url": "https://howtoexplain.ai/examples"
             },
             {
               "title": "Blog",
-              "url": "https://blog.howtoexplain.ai",
-              "target": "_blank"
+              "url": "https://blog.howtoexplain.ai"
             }
           ]
         },
@@ -562,11 +556,11 @@
     "agreement": {
       "items": [
         {
-          "title": "Privacy Policy",
+          "title": "Politique de Confidentialité",
           "url": "/privacy-policy"
         },
         {
-          "title": "Terms of Service",
+          "title": "Conditions d'Utilisation",
           "url": "/terms-of-service"
         }
       ]

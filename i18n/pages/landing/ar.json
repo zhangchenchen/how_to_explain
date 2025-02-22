@@ -1,0 +1,533 @@
+{
+  "template": "How to Explain",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "How to Explain",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "How To Explain"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "المميزات",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "الأسعار",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "Blog",
+          "url": "/#blog",
+          "icon": "BiCube",
+          "children": [
+            {
+              "title": "AI Wallpaper Shop",
+              "description": "مولد خلفيات بالذكاء الاصطناعي",
+              "icon": "MdOutlineWallpaper",
+              "url": "https://aiwallpaper.shop",
+              "target": "_blank"
+            },
+            {
+              "title": "AI Cover Generator",
+              "description": "مولد أغلفة بالذكاء الاصطناعي",
+              "icon": "",
+              "url": "https://aicover.design",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "اجعل كل شيء سهل الفهم",
+    "description": "1. أدخل أي سؤال معقد أو رابط<br />2. اختر جمهورك المستهدف (الأطفال، المبتدئين)<br />3. انقر على زر البدء للحصول على الشرح",
+    "feature": {
+      "items": [
+        {
+          "icon": "RiLightbulbLine",
+          "className": "flex items-center gap-4"
+        }
+      ],
+      "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+    }
+  },
+  "branding": {
+    "buttons": [
+      {
+        "title": "ابدأ الآن",
+        "url": "/#pricing",
+        "icon": "RiRocketLine",
+        "variant": "default",
+        "size": "lg",
+        "className": "text-lg px-8 py-6"
+      },
+      {
+        "title": "شاهد العرض التوضيحي",
+        "url": "https://demo.shipany.ai",
+        "icon": "RiPlayCircleLine", 
+        "variant": "outline",
+        "target": "_blank",
+        "size": "lg",
+        "className": "text-lg px-8 py-6"
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "ما هو HowToExplain",
+    "label": "تعريف",
+    "description": "HowToExplain هو أداة مدعومة بالذكاء الاصطناعي تحول المواضيع المعقدة إلى شروحات واضحة وسهلة الفهم لمختلف الجماهير.",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "تبسيط ذكي",
+        "description": "تقوم تقنية الذكاء الاصطناعي لدينا بتفكيك المفاهيم المعقدة إلى شروحات بسيطة وسهلة الفهم مصممة لمستوى جمهورك.",
+        "icon": "RiBrainLine",
+        "className": "flex items-center gap-4"
+      },
+      {
+        "title": "التركيز على الجمهور",
+        "description": "تخصيص الشروحات لمختلف الجماهير - من الأطفال إلى المبتدئين والمحترفين.",
+        "icon": "RiGroupLine"
+      },
+      {
+        "title": "نتائج فورية",
+        "description": "احصل على شروحات واضحة ومنظمة فوراً، موفراً ساعات من البحث وعمل التبسيط.",
+        "icon": "RiLightbulbLine"
+      }
+    ],
+    "className": "space-y-8"
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "لماذا تختار HowToExplain",
+    "label": "المميزات",
+    "description": "اختبر قوة الشروحات المدعومة بالذكاء الاصطناعي التي تجعل المواضيع المعقدة في متناول الجميع.",
+    "items": [
+      {
+        "title": "فهم مدعوم بالذكاء الاصطناعي",
+        "description": "تقوم تقنية الذكاء الاصطناعي المتقدمة لدينا بتحليل المحتوى المعقد وإنشاء شروحات واضحة ودقيقة يمكن للجميع فهمها.",
+        "icon": "RiAiLine"
+      },
+      {
+        "title": "تكيف متعدد المستويات",
+        "description": "احصل على شروحات مخصصة تماماً لمختلف مستويات المعرفة - سواء كنت تشرح للأطفال أو الطلاب أو المحترفين.",
+        "icon": "RiUserSettingsLine"
+      },
+      {
+        "title": "تصور منظم",
+        "description": "احصل على شروحات بتنسيقات منظمة جيداً مع الرسوم البيانية والمخططات والنقاط - مما يجعل المعلومات المعقدة سهلة الفهم بصرياً.",
+        "icon": "RiLayoutLine"
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "كيفية استخدام HowToExplain",
+    "description": "احصل على شروحات واضحة في ثلاث خطوات بسيطة:",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "أدخل المحتوى الخاص بك",
+        "description": "الصق أي نص معقد أو رابط مقال أو اكتب سؤالك الذي يحتاج إلى شرح.",
+        "image": {
+          "src": "/imgs/features/5.jpeg"
+        },
+        "icon": "RiEdit2Line",
+        "className": "flex items-center gap-4"
+      },
+      {
+        "title": "اختر جمهورك",
+        "description": "اختر من تشرح له - الأطفال، المبتدئين، أو المحترفين. يقوم الذكاء الاصطناعي بتكييف الشرح وفقاً لذلك.",
+        "image": {
+          "src": "/imgs/features/6.png"
+        }
+      },
+      {
+        "title": "احصل على شرح مرئي",
+        "description": "احصل على شرح واضح ومنظم مع الرسوم البيانية والنقاط والأمثلة التي تناسب مستوى جمهورك.",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      },
+      {
+        "title": "شارك وتعلم",
+        "description": "احفظ شروحاتك، شاركها مع الآخرين، أو قم بإنشاء نسخ جديدة لجماهير مختلفة.",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ],
+    "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+  },
+  "feature": {
+    "name": "feature",
+    "title": "الميزات الرئيسية لـ HowToExplain",
+    "description": "قدرات الذكاء الاصطناعي المتقدمة لجعل المواضيع المعقدة بسيطة ومفهومة.",
+    "items": [
+      {
+        "title": "تحليل ذكي للمحتوى",
+        "description": "خوارزميات ذكاء اصطناعي متقدمة تفهم السياق وتحدد المفاهيم الرئيسية للشرح.",
+        "icon": "RiBrainLine"
+      },
+      {
+        "title": "مخرجات متعددة التنسيقات",
+        "description": "إنشاء شروحات بتنسيقات متنوعة - نص، نقاط، رسوم بيانية، وخرائط ذهنية.",
+        "icon": "RiLayoutLine"
+      },
+      {
+        "title": "تكيف مع الجمهور",
+        "description": "تعديل تلقائي للغة والأمثلة بناءً على مستوى الجمهور المستهدف.",
+        "icon": "RiGroupLine"
+      },
+      {
+        "title": "التعلم المرئي",
+        "description": "إنشاء رسوم بيانية بديهية ووسائل مرئية لتعزيز فهم المفاهيم المعقدة.",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "مشاركة سهلة",
+        "description": "شارك الشروحات فوراً مع الزملاء والطلاب أو أي شخص يحتاج إلى الفهم.",
+        "icon": "RiShareLine"
+      },
+      {
+        "title": "مكتبة المعرفة",
+        "description": "احفظ ونظم شروحاتك للرجوع إليها مستقبلاً والتعلم المستمر.",
+        "icon": "RiBookLine"
+      }
+    ],
+    "className": "grid grid-cols-1 md:grid-cols-2 gap-8"
+  },
+  "stats": {
+    "name": "stats",
+    "label": "إحصائيات",
+    "title": "الناس يحبون HowToExplain",
+    "description": "لجعل المواضيع المعقدة بسيطة ومفهومة",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "المستخدمون النشطون",
+        "label": "1K+",
+        "description": "مستخدم يومياً"
+      },
+      {
+        "title": "الشروحات",
+        "label": "10K+",
+        "description": "تم إنشاؤها"
+      },
+      {
+        "title": "المتوسط",
+        "label": "4.7",
+        "description": "تقييم المستخدمين"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "الأسعار",
+    "title": "الأسعار",
+    "description": "احصل على جميع ميزات ShipAny، أطلق شركتك الناشئة للذكاء الاصطناعي بسرعة.",
+    "groups": [],
+    "items": [
+      {
+        "title": "المبتدئ",
+        "description": "ابدأ مع شركتك الناشئة الأولى.",
+        "features_title": "يتضمن",
+        "features": [
+          "100 رصيد، صالح لمدة شهر واحد",
+          "قالب NextJS",
+          "هيكل متوافق مع محركات البحث",
+          "الدفع عبر Stripe",
+          "تخزين البيانات مع Supabase",
+          "تسجيل الدخول عبر Google وبنقرة واحدة",
+          "دعم تعدد اللغات"
+        ],
+        "interval": "one-time",
+        "amount": 9900,
+        "cn_amount": 69900,
+        "currency": "USD",
+        "price": "$99",
+        "original_price": "$199",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "ادفع مرة واحدة. أنشئ مشاريع غير محدودة!",
+        "button": {
+          "title": "احصل على ShipAny"
+        },
+        "product_id": "starter",
+        "product_name": "ShipAny Boilerplate Starter",
+        "credits": 100,
+        "valid_months": 1,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
+      },
+      {
+        "title": "القياسي",
+        "description": "أطلق شركتك الناشئة بسرعة.",
+        "label": "الأكثر شعبية",
+        "features_title": "كل ما في الباقة المبتدئة، بالإضافة إلى",
+        "features": [
+          "200 رصيد، صالح لمدة 3 أشهر",
+          "النشر مع Vercel أو Cloudflare",
+          "إنشاء سياسة الخصوصية والشروط",
+          "تكامل مع Google Analytics",
+          "تكامل مع Google Search Console",
+          "مجتمع Discord",
+          "دعم تقني لإطلاقك الأول",
+          "تحديثات مدى الحياة"
+        ],
+        "tip": "ادفع مرة واحدة. أنشئ مشاريع غير محدودة!",
+        "button": {
+          "title": "احصل على ShipAny"
+        },
+        "product_id": "standard",
+        "product_name": "ShipAny Boilerplate Standard",
+        "credits": 200,
+        "valid_months": 3,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
+      },
+      {
+        "title": "المتميز",
+        "description": "أطلق أي شركة ناشئة للذكاء الاصطناعي.",
+        "features_title": "كل ما في الباقة القياسية، بالإضافة إلى",
+        "features": [
+          "300 رصيد، صالح لمدة سنة",
+          "وظائف تجارية مع الذكاء الاصطناعي",
+          "مركز المستخدم",
+          "نظام الأرصدة",
+          "مبيعات API لخدمتك",
+          "نظام الإدارة",
+          "دعم تقني ذو أولوية"
+        ],
+        "interval": "one-time",
+        "amount": 29900,
+        "cn_amount": 199900,
+        "currency": "USD",
+        "price": "$299",
+        "original_price": "$399",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "ادفع مرة واحدة. أنشئ مشاريع غير محدودة!",
+        "button": {
+          "title": "احصل على ShipAny"
+        },
+        "product_id": "premium",
+        "product_name": "ShipAny Boilerplate Premium",
+        "credits": 300,
+        "valid_months": 12,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
+      }
+    ],
+    "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "آراء المستخدمين",
+    "title": "ماذا يقول المستخدمون عن HowToExplain",
+    "description": "اسمع من المعلمين والطلاب والمحترفين الذين يستخدمون HowToExplain لتبسيط المواضيع المعقدة.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Chen",
+        "label": "مدرسة ثانوية",
+        "description": "يساعدني HowToExplain في إنشاء شروحات واضحة ومناسبة لعمر طلابي...",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Dr. Rachel Kim",
+        "label": "أستاذة جامعية",
+        "description": "هذه الأداة تغير قواعد اللعبة في التواصل الأكاديمي...",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Mark Thompson",
+        "label": "Content Creator",
+        "description": "As an educational content creator, HowToExplain is invaluable. It helps me break down complex topics into engaging, easy-to-follow explanations for my audience.",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "Lisa Garcia",
+        "label": "Parent",
+        "description": "I use HowToExplain to help my kids with their homework. It's amazing how it can take difficult concepts and make them understandable for children.",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "James Wilson",
+        "label": "Technical Writer",
+        "description": "Perfect for technical documentation. It helps me translate complex technical concepts into clear explanations that non-technical stakeholders can understand.",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Emily Zhang",
+        "label": "Student",
+        "description": "This tool has been a lifesaver for my studies. It helps me understand difficult concepts by breaking them down and providing relevant examples I can relate to.",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "الأسئلة الشائعة",
+    "title": "الأسئلة المتكررة حول HowToExplain",
+    "description": "لديك سؤال آخر؟ تواصل معنا عبر Discord أو البريد الإلكتروني.",
+    "items": [
+      {
+        "title": "ما هو بالضبط HowToExplain وكيف يعمل؟",
+        "description": "HowToExplain هو أداة مدعومة بالذكاء الاصطناعي تساعد في جعل المواضيع المعقدة سهلة الفهم..."
+      },
+      {
+        "title": "Who can benefit from using HowToExplain?",
+        "description": "HowToExplain is useful for teachers, students, parents, content creators, and professionals who need to explain complex concepts to different audiences. It's particularly helpful in education, technical writing, and professional communication."
+      },
+      {
+        "title": "What types of content can I explain with HowToExplain?",
+        "description": "You can explain virtually any complex topic - from scientific concepts to technical documentation, academic subjects to business concepts. The AI adapts the explanation to match your audience's understanding level."
+      },
+      {
+        "title": "How does the audience adaptation feature work?",
+        "description": "Simply select your target audience (kids, beginners, or professionals), and our AI automatically adjusts the language, examples, and complexity level of the explanation to match their understanding level."
+      },
+      {
+        "title": "What formats of explanation does HowToExplain provide?",
+        "description": "HowToExplain generates explanations in multiple formats including text, bullet points, diagrams, mind maps, and visual aids. This multi-format approach helps ensure better understanding for different learning styles."
+      },
+      {
+        "title": "Can I save and share my explanations?",
+        "description": "Yes! You can save explanations to your personal knowledge library, share them with others, and even generate different versions of the same explanation for different audiences."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "ابدأ الشرح بشكل أفضل اليوم",
+    "description": "انضم إلى آلاف المعلمين والآباء والمحترفين الذين يجعلون المواضيع المعقدة بسيطة",
+    "button": "جرب مجاناً"
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "HowToExplain",
+      "description": "HowToExplain هو أداة مدعومة بالذكاء الاصطناعي تجعل المواضيع المعقدة سهلة الفهم...",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "HowToExplain"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • HowToExplain جميع الحقوق محفوظة.",
+    "nav": {
+      "items": [
+        {
+          "title": "حول",
+          "children": [
+            {
+              "title": "المميزات",
+              "url": "/#feature"
+            },
+            {
+              "title": "كيف يعمل",
+              "url": "/#usage"
+            }
+          ]
+        },
+        {
+          "title": "الموارد",
+          "children": [
+            {
+              "title": "مركز المساعدة",
+              "url": "https://help.howtoexplain.ai"
+            }
+          ]
+        },
+        {
+          "title": "Community",
+          "children": [
+            {
+              "title": "Discord",
+              "url": "https://discord.gg/howtoexplain",
+              "target": "_blank"
+            },
+            {
+              "title": "Twitter",
+              "url": "https://twitter.com/howtoexplain",
+              "target": "_blank"
+            },
+            {
+              "title": "GitHub",
+              "url": "https://github.com/howtoexplain",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/howtoexplain",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/howtoexplain",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/howtoexplain",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@howtoexplain.ai",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "سياسة الخصوصية",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "شروط الخدمة",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "title": "HowToExplain | تبسيط المعقد",
+    "description": "حول المفاهيم المعقدة إلى شروحات سهلة الفهم. مثالي للشرح للأطفال والمبتدئين أو أي شخص يحتاج إلى تفسيرات بسيطة.",
+    "keywords": "howToExplain, شرح بسيط, تبسيط المعرفة, تبسيط المفاهيم"
+  },
+  "user": {
+    "sign_in": "تسجيل الدخول",
+    "sign_out": "تسجيل الخروج",
+    "credits": "الرصيد",
+    "api_keys": "مفاتيح API",
+    "my_orders": "طلباتي"
+  },
+  "sign_modal": {
+    "sign_in_title": "تسجيل الدخول",
+    "sign_in_description": "الدخول إلى حسابك",
+    "sign_up_title": "إنشاء حساب",
+    "sign_up_description": "إنشاء حساب جديد",
+    "email_title": "البريد الإلكتروني",
+    "email_placeholder": "أدخل بريدك الإلكتروني",
+    "password_title": "كلمة المرور",
+    "password_placeholder": "أدخل كلمة المرور",
+    "forgot_password": "نسيت كلمة المرور؟",
+    "or": "أو",
+    "continue": "متابعة",
+    "no_account": "ليس لديك حساب؟",
+    "email_sign_in": "تسجيل الدخول بالبريد الإلكتروني",
+    "google_sign_in": "تسجيل الدخول بواسطة Google",
+    "github_sign_in": "تسجيل الدخول بواسطة GitHub",
+    "close_title": "إغلاق",
+    "cancel_title": "إلغاء"
+  }
+} 

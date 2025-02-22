@@ -1,0 +1,568 @@
+{
+  "template": "How to Explain",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "How to Explain",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "How To Explain"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "機能",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "料金プラン",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "Blog",
+          "url": "/#blog",
+          "icon": "BiCube",
+          "children": [
+            {
+              "title": "AI Wallpaper Shop",
+              "description": "AI壁紙ジェネレーター",
+              "icon": "MdOutlineWallpaper",
+              "url": "https://aiwallpaper.shop",
+              "target": "_blank"
+            },
+            {
+              "title": "AI Cover Generator",
+              "description": "AIカバージェネレーター",
+              "icon": "",
+              "url": "https://aicover.design",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "すべてを分かりやすく",
+    "description": "1. 複雑な質問やURLリンクを入力<br />2. 対象者を選択（子供、初心者）<br />3. スタートボタンをクリックして説明を取得",
+    "feature": {
+      "items": [
+        {
+          "icon": "RiLightbulbLine",
+          "className": "flex items-center gap-4"
+        }
+      ],
+      "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+    }
+  },
+  "branding": {
+    "buttons": [
+      {
+        "title": "はじめる",
+        "url": "/#pricing",
+        "icon": "RiRocketLine",
+        "variant": "default",
+        "size": "lg",
+        "className": "text-lg px-8 py-6"
+      },
+      {
+        "title": "デモを見る",
+        "url": "https://demo.shipany.ai",
+        "icon": "RiPlayCircleLine", 
+        "variant": "outline",
+        "target": "_blank",
+        "size": "lg",
+        "className": "text-lg px-8 py-6"
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "HowToExplainとは",
+    "label": "紹介",
+    "description": "HowToExplainは、複雑なトピックを様々な対象者向けに分かりやすい説明に変換するAI搭載ツールです。",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "スマートな単純化",
+        "description": "AIテクノロジーが複雑な概念を対象者のレベルに合わせた、シンプルで理解しやすい説明に分解します。",
+        "icon": "RiBrainLine",
+        "className": "flex items-center gap-4"
+      },
+      {
+        "title": "対象者重視",
+        "description": "子供から初心者、専門家まで、様々な対象者に合わせた説明をカスタマイズできます。",
+        "icon": "RiGroupLine"
+      },
+      {
+        "title": "即時結果",
+        "description": "研究や単純化の作業時間を節約し、明確で構造化された説明を即座に取得できます。",
+        "icon": "RiLightbulbLine"
+      }
+    ],
+    "className": "space-y-8"
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "なぜHowToExplainを選ぶのか",
+    "label": "メリット",
+    "description": "複雑なトピックを誰にでも理解できるようにするAI駆動の説明の力を体験してください。",
+    "items": [
+      {
+        "title": "AI駆動の理解",
+        "description": "高度なAIテクノロジーが複雑なコンテンツを分析し、誰にでも理解できる明確で正確な説明を作成します。",
+        "icon": "RiAiLine",
+        "image": {
+          "src": "/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "マルチレベル適応",
+        "description": "子供、学生、専門家など、様々な知識レベルに完全に適応した説明を取得できます。",
+        "icon": "RiUserSettingsLine",
+        "image": {
+          "src": "/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "構造化された視覚化",
+        "description": "グラフ、図表、箇条書きなど、整理された形式で説明を取得し、複雑な情報を視覚的に理解しやすくします。",
+        "icon": "RiLayoutLine",
+        "image": {
+          "src": "/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "HowToExplainの使い方",
+    "description": "3つの簡単なステップで明確な説明を取得：",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "コンテンツを入力",
+        "description": "複雑なテキスト、記事のURL、または説明が必要な質問を入力してください。",
+        "image": {
+          "src": "/imgs/features/5.jpeg"
+        },
+        "icon": "RiEdit2Line",
+        "className": "flex items-center gap-4"
+      },
+      {
+        "title": "対象者を選択",
+        "description": "説明する対象（子供、初心者、専門家）を選択してください。AIがそれに応じて説明を適応させます。",
+        "image": {
+          "src": "/imgs/features/6.png"
+        },
+        "icon": "RiUserLine"
+      },
+      {
+        "title": "視覚的な説明を取得",
+        "description": "対象者のレベルに合わせた図表、箇条書き、例を含む明確で構造化された説明を受け取ります。",
+        "image": {
+          "src": "/imgs/features/7.png"
+        },
+        "icon": "RiMagicLine"
+      },
+      {
+        "title": "共有と学習",
+        "description": "説明を保存し、他の人と共有したり、異なる対象者向けに新しいバージョンを生成したりできます。",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ],
+    "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+  },
+  "feature": {
+    "name": "feature",
+    "title": "HowToExplainの主な機能",
+    "description": "複雑なトピックをシンプルで理解しやすくする高度なAI機能。",
+    "items": [
+      {
+        "title": "スマートなコンテンツ分析",
+        "description": "文脈を理解し、説明に必要な重要な概念を特定する高度なAIアルゴリズム。",
+        "icon": "RiBrainLine"
+      },
+      {
+        "title": "マルチフォーマット出力",
+        "description": "テキスト、箇条書き、図表、マインドマップなど、様々な形式で説明を生成。",
+        "icon": "RiLayoutLine"
+      },
+      {
+        "title": "対象者への適応",
+        "description": "対象者のレベルに応じて、言語や例を自動的に調整。",
+        "icon": "RiGroupLine"
+      },
+      {
+        "title": "視覚的学習",
+        "description": "複雑な概念の理解を深めるための直感的な図表や視覚的補助を作成。",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "簡単な共有",
+        "description": "同僚、学生、または理解が必要な誰とでも即座に説明を共有。",
+        "icon": "RiShareLine"
+      },
+      {
+        "title": "知識ライブラリ",
+        "description": "将来の参照と継続的な学習のために説明を保存し整理。",
+        "icon": "RiBookLine"
+      }
+    ],
+    "className": "grid grid-cols-1 md:grid-cols-2 gap-8"
+  },
+  "stats": {
+    "name": "stats",
+    "label": "統計",
+    "title": "みんなが愛するHowToExplain",
+    "description": "複雑なトピックをシンプルで理解しやすくするために",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "アクティブユーザー",
+        "label": "1K+",
+        "description": "日間ユーザー"
+      },
+      {
+        "title": "説明",
+        "label": "10K+",
+        "description": "生成済み"
+      },
+      {
+        "title": "平均",
+        "label": "4.7",
+        "description": "ユーザー評価"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "料金プラン",
+    "title": "料金プラン",
+    "description": "ShipAnyのすべての機能を利用して、AIのSaaSスタートアップを迅速に立ち上げましょう。",
+    "groups": [],
+    "items": [
+      {
+        "title": "スターター",
+        "description": "最初のSaaSスタートアップを始めましょう。",
+        "features_title": "含まれる機能",
+        "features": [
+          "100クレジット（1ヶ月有効）",
+          "NextJSボイラープレート",
+          "SEOフレンドリーな構造",
+          "Stripeによる決済",
+          "Supabaseによるデータストレージ",
+          "Google認証とワンタップログイン",
+          "多言語対応"
+        ],
+        "interval": "one-time",
+        "amount": 9900,
+        "cn_amount": 69900,
+        "currency": "USD",
+        "price": "$99",
+        "original_price": "$199",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "一度の支払いで無制限のプロジェクトを構築！",
+        "button": {
+          "title": "ShipAnyを入手",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter",
+        "product_name": "ShipAny Boilerplate Starter",
+        "credits": 100,
+        "valid_months": 1,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
+      },
+      {
+        "title": "スタンダード",
+        "description": "SaaSスタートアップを迅速に展開。",
+        "label": "人気",
+        "features_title": "スターターの全機能に加えて",
+        "features": [
+          "200クレジット（3ヶ月有効）",
+          "VercelまたはCloudflareでのデプロイ",
+          "プライバシーポリシーと利用規約の生成",
+          "Google Analytics連携",
+          "Google Search Console連携",
+          "Discordコミュニティ",
+          "初回リリースの技術サポート",
+          "生涯アップデート"
+        ],
+        "interval": "one-time",
+        "amount": 19900,
+        "cn_amount": 139900,
+        "currency": "USD",
+        "price": "$199",
+        "original_price": "$299",
+        "unit": "USD",
+        "is_featured": true,
+        "tip": "Pay once. Build unlimited projects!",
+        "button": {
+          "title": "Get ShipAny",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "standard",
+        "product_name": "ShipAny Boilerplate Standard",
+        "credits": 200,
+        "valid_months": 3,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
+      },
+      {
+        "title": "プレミアム",
+        "description": "あらゆるAI SaaSスタートアップを展開。",
+        "features_title": "スタンダードの全機能に加えて",
+        "features": [
+          "300クレジット（1年有効）",
+          "AIによるビジネス機能",
+          "ユーザーセンター",
+          "クレジットシステム",
+          "SaaS用APIセールス",
+          "管理システム",
+          "優先技術サポート"
+        ],
+        "interval": "one-time",
+        "amount": 29900,
+        "cn_amount": 199900,
+        "currency": "USD",
+        "price": "$299",
+        "original_price": "$399",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "Pay once. Build unlimited projects!",
+        "button": {
+          "title": "Get ShipAny",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium",
+        "product_name": "ShipAny Boilerplate Premium",
+        "credits": 300,
+        "valid_months": 12,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
+      }
+    ],
+    "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "お客様の声",
+    "title": "HowToExplainについてのユーザーの声",
+    "description": "複雑なトピックをシンプルにするためにHowToExplainを使用している教育者、学生、専門家の声をお聞きください。",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Chen",
+        "label": "高校教師",
+        "description": "HowToExplainは、生徒に合わせた年齢に適した明確な説明を作成するのに役立っています...",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Dr. Rachel Kim",
+        "label": "大学教授",
+        "description": "このツールは学術コミュニケーションに革新をもたらします。学生から研究者まで、様々な対象者に複雑な研究概念を説明するのに活用しています。",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Mark Thompson",
+        "label": "コンテンツクリエイター",
+        "description": "教育コンテンツクリエイターとして、HowToExplainは非常に重要なツールです。複雑なトピックを視聴者にとって魅力的で分かりやすい説明に分解するのに役立ちます。",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "Lisa Garcia",
+        "label": "保護者",
+        "description": "子供の宿題を手伝うためにHowToExplainを使用しています。難しい概念を子供にも理解できるように変換できる能力には驚かされます。",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "James Wilson",
+        "label": "Technical Writer",
+        "description": "Perfect for technical documentation. It helps me translate complex technical concepts into clear explanations that non-technical stakeholders can understand.",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Emily Zhang",
+        "label": "Student",
+        "description": "This tool has been a lifesaver for my studies. It helps me understand difficult concepts by breaking them down and providing relevant examples I can relate to.",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "よくある質問",
+    "title": "HowToExplainについてのよくある質問",
+    "description": "他に質問がありますか？DiscordまたはEメールでお問い合わせください。",
+    "items": [
+      {
+        "title": "HowToExplainとは具体的に何で、どのように機能しますか？",
+        "description": "HowToExplainは、複雑なトピックを理解しやすくするAI搭載ツールです。高度なAIを使用してコンテンツを分析し、視覚的補助や例を含む、対象者に適した明確な説明を生成します。"
+      },
+      {
+        "title": "誰がHowToExplainの恩恵を受けられますか？",
+        "description": "HowToExplainは、教師、学生、保護者、コンテンツクリエイター、専門家など、複雑な概念を様々な対象者に説明する必要がある方々に役立ちます。特に教育、技術文書作成、専門的なコミュニケーションで効果を発揮します。"
+      },
+      {
+        "title": "HowToExplainでどのような内容を説明できますか？",
+        "description": "科学的概念から技術文書、学術的な主題からビジネス概念まで、事実上あらゆる複雑なトピックを説明できます。AIは対象者の理解レベルに合わせて説明を適応させます。"
+      },
+      {
+        "title": "対象者適応機能はどのように機能しますか？",
+        "description": "対象者（子供、初心者、専門家）を選択するだけで、AIが自動的に言語、例示、説明の複雑さのレベルを対象者の理解レベルに合わせて調整します。"
+      },
+      {
+        "title": "HowToExplainはどのような形式の説明を提供しますか？",
+        "description": "HowToExplainは、テキスト、箇条書き、図表、マインドマップ、視覚的補助など、複数の形式で説明を生成します。この多様な形式のアプローチにより、様々な学習スタイルに対応した理解を促進します。"
+      },
+      {
+        "title": "説明を保存して共有できますか？",
+        "description": "はい！説明を個人の知識ライブラリに保存し、他の人と共有したり、同じ説明の異なるバージョンを様々な対象者向けに生成したりすることができます。"
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "今日からより良い説明を始めましょう",
+    "description": "複雑なトピックをシンプルにする何千もの教育者、保護者、専門家の仲間入りをしましょう",
+    "button": "無料で試す"
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "HowToExplain",
+      "description": "HowToExplainは、複雑なトピックを理解しやすくするAI搭載ツールです。教育者、学生、専門家に最適です。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "HowToExplain"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • HowToExplain 無断複写・転載を禁じます。",
+    "nav": {
+      "items": [
+        {
+          "title": "概要",
+          "children": [
+            {
+              "title": "機能",
+              "url": "/#feature"
+            },
+            {
+              "title": "使い方",
+              "url": "/#usage"
+            }
+          ]
+        },
+        {
+          "title": "リソース",
+          "children": [
+            {
+              "title": "ヘルプセンター",
+              "url": "https://help.howtoexplain.ai"
+            },
+            {
+              "title": "Examples",
+              "url": "https://howtoexplain.ai/examples",
+              "target": "_blank"
+            },
+            {
+              "title": "Blog",
+              "url": "https://blog.howtoexplain.ai",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "title": "Community",
+          "children": [
+            {
+              "title": "Discord",
+              "url": "https://discord.gg/howtoexplain",
+              "target": "_blank"
+            },
+            {
+              "title": "Twitter",
+              "url": "https://twitter.com/howtoexplain",
+              "target": "_blank"
+            },
+            {
+              "title": "GitHub",
+              "url": "https://github.com/howtoexplain",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/howtoexplain",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/howtoexplain",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/howtoexplain",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@howtoexplain.ai",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "プライバシーポリシー",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "利用規約",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

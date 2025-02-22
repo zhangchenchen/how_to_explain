@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "title": "HowToExplain | 복잡한 것을 쉽게",
+    "description": "복잡한 개념이나 글을 이해하기 쉬운 설명으로 변환합니다. 어린이, 초보자 또는 간단한 설명이 필요한 모든 사람에게 완벽합니다.",
+    "keywords": "howToExplain, 쉬운 설명, 지식 보급, 개념 단순화"
+  },
+  "user": {
+    "sign_in": "로그인",
+    "sign_out": "로그아웃",
+    "credits": "크레딧",
+    "api_keys": "API 키",
+    "my_orders": "주문 내역"
+  },
+  "sign_modal": {
+    "sign_in_title": "로그인",
+    "sign_in_description": "계정에 로그인",
+    "sign_up_title": "회원가입",
+    "sign_up_description": "새 계정 만들기",
+    "email_title": "이메일",
+    "email_placeholder": "이메일을 입력하세요",
+    "password_title": "비밀번호",
+    "password_placeholder": "비밀번호를 입력하세요",
+    "forgot_password": "비밀번호를 잊으셨나요?",
+    "or": "또는",
+    "continue": "계속",
+    "no_account": "계정이 없으신가요?",
+    "email_sign_in": "이메일로 로그인",
+    "google_sign_in": "Google로 로그인",
+    "github_sign_in": "GitHub로 로그인",
+    "close_title": "닫기",
+    "cancel_title": "취소"
+  }
+} 
