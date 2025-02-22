@@ -85,6 +85,19 @@ if (
     GoogleProvider({
       clientId: process.env.AUTH_GOOGLE_ID,
       clientSecret: process.env.AUTH_GOOGLE_SECRET,
+      authorization: {
+        params: {
+          access_type: "offline",
+          response_type: "code",
+          prompt: "select_account"
+        }
+      },
+      async profile(profile) {
+        console.log("Google OAuth Profile:", profile);
+        return {
+          ...profile
+        };
+      }
     })
   );
 }
@@ -121,6 +134,11 @@ export const authOptions: NextAuthConfig = {
   },
   callbacks: {
     async signIn({ user, account, profile, email, credentials }) {
+      console.log("Auth Callback - Sign In:", {
+        user,
+        accountType: account?.provider,
+        profile
+      });
       const isAllowedToSignIn = true;
       if (isAllowedToSignIn) {
         return true;
@@ -132,6 +150,7 @@ export const authOptions: NextAuthConfig = {
       }
     },
     async redirect({ url, baseUrl }) {
+      console.log("Auth Callback - Redirect:", { url, baseUrl });
       // Allows relative callback URLs
       if (url.startsWith("/")) return `${baseUrl}${url}`;
       // Allows callback URLs on the same origin

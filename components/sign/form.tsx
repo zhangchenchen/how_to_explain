@@ -39,7 +39,14 @@ export default function SignForm({
               <Button
                 variant="outline"
                 className="w-full"
-                onClick={() => signIn("google")}
+                onClick={() => {
+                  console.log("Initiating Google sign in...");
+                  console.log("Google OAuth Config:", {
+                    clientId: process.env.NEXT_PUBLIC_AUTH_GOOGLE_ID,
+                    enabled: process.env.NEXT_PUBLIC_AUTH_GOOGLE_ENABLED
+                  });
+                  signIn("google");
+                }}
               >
                 <SiGoogle className="w-4 h-4" />
                 {t("sign_modal.google_sign_in")}
