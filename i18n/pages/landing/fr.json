@@ -438,15 +438,15 @@
           "children": [
             {
               "title": "Centre d'aide",
-              "url": "https://help.howtoexplain.ai"
+              "url": "/posts"
             },
             {
               "title": "Exemples",
-              "url": "https://howtoexplain.ai/examples"
+              "url": "/posts"
             },
             {
               "title": "Blog",
-              "url": "https://blog.howtoexplain.ai"
+              "url": "/posts"
             }
           ]
         },
@@ -475,25 +475,7 @@
     "social": {
       "items": [
         {
-          "title": "X",
-          "icon": "RiTwitterXFill",
-          "url": "https://x.com/howtoexplain",
-          "target": "_blank"
-        },
-        {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/howtoexplain",
-          "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/howtoexplain",
-          "target": "_blank"
-        },
-        {
-          "title": "Email",
+          "title": "Email: support@howtoexplain.xyz",
           "icon": "RiMailLine",
           "url": "mailto:support@howtoexplain.ai",
           "target": "_self"
