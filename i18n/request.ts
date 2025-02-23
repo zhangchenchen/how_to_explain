@@ -19,7 +19,6 @@ export default getRequestConfig(async ({ requestLocale }) => {
     "ko-KR": "ko",
     "ar-SA": "ar",
     "es-ES": "es",
-    "hi-IN": "hi"
   };
 
   if (locale in languageMapping) {

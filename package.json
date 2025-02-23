@@ -1,9 +1,9 @@
 {
-  "name": "shipany-template-one",
+  "name": "HowToExplain-template-one",
   "version": "1.0.0",
   "private": true,
   "author": "idoubi",
-  "homepage": "https://shipany.ai",
+  "homepage": "https://HowToExplain.ai",
   "scripts": {
     "dev": "NODE_NO_WARNINGS=1 next dev",
     "build": "next build",

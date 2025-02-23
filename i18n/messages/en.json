@@ -32,7 +32,7 @@
   },
   "my_orders": {
     "title": "My Orders",
-    "description": "orders paid with ShipAny.",
+    "description": "orders paid with HowToExplain.",
     "no_orders": "No orders found",
     "tip": "",
     "activate_order": "Activate Order",
@@ -80,7 +80,7 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "News, resources, and updates about ShipAny",
+    "description": "News, resources, and updates about HowToExplain",
     "read_more_text": "Read More"
   }
 }

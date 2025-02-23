@@ -63,10 +63,4 @@ export const pathnames = {
     "/": "/",
     "posts": "/posts"
   },
-  hi: {
-    "privacy-policy": "/गोपनीयता-नीति",
-    "terms-of-service": "/सेवा-की-शर्तें",
-    "/": "/",
-    "posts": "/posts"
-  }
 } satisfies Pathnames<typeof locales>;

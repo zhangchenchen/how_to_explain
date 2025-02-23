@@ -24,24 +24,10 @@
         },
         {
           "title": "Blog",
-          "url": "/#blog",
+          "url": "/posts",
           "icon": "BiCube",
-          "children": [
-            {
-              "title": "AI Wallpaper Shop",
-              "description": "مولد خلفيات بالذكاء الاصطناعي",
-              "icon": "MdOutlineWallpaper",
-              "url": "https://aiwallpaper.shop",
-              "target": "_blank"
-            },
-            {
-              "title": "AI Cover Generator",
-              "description": "مولد أغلفة بالذكاء الاصطناعي",
-              "icon": "",
-              "url": "https://aicover.design",
-              "target": "_blank"
-            }
-          ]
+          "target": "_self",  
+          "children": [] 
         }
       ]
     },
@@ -74,7 +60,7 @@
       },
       {
         "title": "شاهد العرض التوضيحي",
-        "url": "https://demo.shipany.ai",
+        "url": "https://demo.HowToExplain.ai",
         "icon": "RiPlayCircleLine", 
         "variant": "outline",
         "target": "_blank",
@@ -243,98 +229,73 @@
     "name": "pricing",
     "label": "الأسعار",
     "title": "الأسعار",
-    "description": "احصل على جميع ميزات ShipAny، أطلق شركتك الناشئة للذكاء الاصطناعي بسرعة.",
+    "description": "خطط بسيطة وشفافة للجميع",
     "groups": [],
     "items": [
       {
-        "title": "المبتدئ",
-        "description": "ابدأ مع شركتك الناشئة الأولى.",
+        "title": "مجاني",
+        "description": "للمستخدمين الأفراد",
         "features_title": "يتضمن",
         "features": [
-          "100 رصيد، صالح لمدة شهر واحد",
-          "قالب NextJS",
-          "هيكل متوافق مع محركات البحث",
-          "الدفع عبر Stripe",
-          "تخزين البيانات مع Supabase",
-          "تسجيل الدخول عبر Google وبنقرة واحدة",
-          "دعم تعدد اللغات"
+          "100 رصيد شهرياً",
+          "رصيد واحد لكل شرح",
+          "تصدير بصيغة HTML",
+          "تخزين صفحات HTML لمدة 7 أيام",
+          "معالجة AI قياسية",
+          "دعم عبر البريد الإلكتروني"
         ],
-        "interval": "one-time",
-        "amount": 9900,
-        "cn_amount": 69900,
+        "interval": "month",
+        "amount": 0,
         "currency": "USD",
-        "price": "$99",
-        "original_price": "$199",
-        "unit": "USD",
+        "price": "$0",
+        "unit": "دولار/شهر",
         "is_featured": false,
-        "tip": "ادفع مرة واحدة. أنشئ مشاريع غير محدودة!",
+        "tip": "مثالي للبدء!",
         "button": {
-          "title": "احصل على ShipAny"
+          "title": "ابدأ مجاناً",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
         },
-        "product_id": "starter",
-        "product_name": "ShipAny Boilerplate Starter",
+        "product_id": "free",
+        "product_name": "HowToExplain Free",
         "credits": 100,
         "valid_months": 1,
         "className": "flex flex-col p-6 bg-white rounded-lg shadow"
       },
       {
-        "title": "القياسي",
-        "description": "أطلق شركتك الناشئة بسرعة.",
+        "title": "احترافي",
+        "description": "للمستخدمين المتقدمين",
         "label": "الأكثر شعبية",
-        "features_title": "كل ما في الباقة المبتدئة، بالإضافة إلى",
+        "features_title": "كل ما يتضمنه المجاني، بالإضافة إلى",
         "features": [
-          "200 رصيد، صالح لمدة 3 أشهر",
-          "النشر مع Vercel أو Cloudflare",
-          "إنشاء سياسة الخصوصية والشروط",
-          "تكامل مع Google Analytics",
-          "تكامل مع Google Search Console",
-          "مجتمع Discord",
-          "دعم تقني لإطلاقك الأول",
-          "تحديثات مدى الحياة"
+          "500 رصيد شهرياً",
+          "رصيد واحد لكل شرح",
+          "تصدير بصيغة HTML وMarkdown وPDF",
+          "تخزين صفحات HTML لمدة سنة",
+          "معالجة AI ذات أولوية",
+          "دعم ذو أولوية عبر البريد الإلكتروني",
+          "وصول مبكر للميزات الجديدة"
         ],
-        "tip": "ادفع مرة واحدة. أنشئ مشاريع غير محدودة!",
-        "button": {
-          "title": "احصل على ShipAny"
-        },
-        "product_id": "standard",
-        "product_name": "ShipAny Boilerplate Standard",
-        "credits": 200,
-        "valid_months": 3,
-        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
-      },
-      {
-        "title": "المتميز",
-        "description": "أطلق أي شركة ناشئة للذكاء الاصطناعي.",
-        "features_title": "كل ما في الباقة القياسية، بالإضافة إلى",
-        "features": [
-          "300 رصيد، صالح لمدة سنة",
-          "وظائف تجارية مع الذكاء الاصطناعي",
-          "مركز المستخدم",
-          "نظام الأرصدة",
-          "مبيعات API لخدمتك",
-          "نظام الإدارة",
-          "دعم تقني ذو أولوية"
-        ],
-        "interval": "one-time",
-        "amount": 29900,
-        "cn_amount": 199900,
+        "interval": "month",
+        "amount": 990,
         "currency": "USD",
-        "price": "$299",
-        "original_price": "$399",
-        "unit": "USD",
-        "is_featured": false,
-        "tip": "ادفع مرة واحدة. أنشئ مشاريع غير محدودة!",
+        "price": "$9.9",
+        "unit": "دولار/شهر",
+        "is_featured": true,
+        "tip": "الخيار الأكثر شعبية للمحترفين",
         "button": {
-          "title": "احصل على ShipAny"
+          "title": "الترقية إلى احترافي",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
         },
-        "product_id": "premium",
-        "product_name": "ShipAny Boilerplate Premium",
-        "credits": 300,
-        "valid_months": 12,
-        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
+        "product_id": "pro",
+        "product_name": "HowToExplain Pro",
+        "credits": 500,
+        "valid_months": 1,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow border-2 border-primary"
       }
     ],
-    "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+    "className": "grid grid-cols-1 md:grid-cols-2 gap-8"
   },
   "testimonial": {
     "name": "testimonial",
@@ -434,15 +395,14 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "HowToExplain",
-      "description": "HowToExplain هو أداة مدعومة بالذكاء الاصطناعي تجعل المواضيع المعقدة سهلة الفهم...",
+      "title": "How to Explain",
       "logo": {
         "src": "/logo.png",
-        "alt": "HowToExplain"
+        "alt": "How To Explain"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • HowToExplain جميع الحقوق محفوظة.",
+    "copyright": "© 2025 • HowToExplain All rights reserved.",
     "nav": {
       "items": [
         {
@@ -450,11 +410,13 @@
           "children": [
             {
               "title": "المميزات",
-              "url": "/#feature"
+              "url": "/#feature",
+              "target": "_self"
             },
             {
-              "title": "كيف يعمل",
-              "url": "/#usage"
+              "title": "الأسعار",
+              "url": "/#pricing",
+              "target": "_self"
             }
           ]
         },
@@ -462,27 +424,23 @@
           "title": "الموارد",
           "children": [
             {
-              "title": "مركز المساعدة",
-              "url": "https://help.howtoexplain.ai"
+              "title": "الأسئلة الشائعة",
+              "url": "/#faq",
+              "target": "_self"
+            },
+            {
+              "title": "المدونة",
+              "url": "/posts",
+              "target": "_self"
             }
           ]
         },
         {
-          "title": "Community",
+          "title": "اتصل بنا",
           "children": [
             {
-              "title": "Discord",
-              "url": "https://discord.gg/howtoexplain",
-              "target": "_blank"
-            },
-            {
-              "title": "Twitter",
-              "url": "https://twitter.com/howtoexplain",
-              "target": "_blank"
-            },
-            {
-              "title": "GitHub",
-              "url": "https://github.com/howtoexplain",
+              "title": "البريد الإلكتروني",
+              "url": "mailto:support@howtoexplain.xyz",
               "target": "_blank"
             }
           ]
@@ -492,28 +450,10 @@
     "social": {
       "items": [
         {
-          "title": "X",
-          "icon": "RiTwitterXFill",
-          "url": "https://x.com/howtoexplain",
-          "target": "_blank"
-        },
-        {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/howtoexplain",
-          "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/howtoexplain",
-          "target": "_blank"
-        },
-        {
-          "title": "Email",
+          "title": "البريد الإلكتروني",
           "icon": "RiMailLine",
-          "url": "mailto:support@howtoexplain.ai",
-          "target": "_self"
+          "url": "mailto:support@howtoexplain.xyz",
+          "target": "_blank"
         }
       ]
     },

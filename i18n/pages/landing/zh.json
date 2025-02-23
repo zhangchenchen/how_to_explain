@@ -23,25 +23,11 @@
           "icon": "MdPayment"
         },
         {
-          "title": "案例展示",
-          "url": "/#showcase",
+          "title": "Blog",
+          "url": "/posts",
           "icon": "BiCube",
-          "children": [
-            {
-              "title": "AI壁纸商店",
-              "description": "AI壁纸生成器",
-              "icon": "MdOutlineWallpaper",
-              "url": "https://aiwallpaper.shop",
-              "target": "_blank"
-            },
-            {
-              "title": "AI封面生成器",
-              "description": "AI封面生成器",
-              "icon": "",
-              "url": "https://aicover.design",
-              "target": "_blank"
-            }
-          ]
+          "target": "_self",  
+          "children": [] 
         }
       ]
     },
@@ -239,108 +225,73 @@
     "name": "pricing",
     "label": "定价",
     "title": "定价",
-    "description": "获取 ShipAny 的所有功能，快速启动您的 AI SaaS 创业项目。",
+    "description": "简单透明的定价方案",
     "groups": [],
     "items": [
       {
-        "title": "入门版",
-        "description": "开始您的第一个 SaaS 创业项目。",
+        "title": "免费版",
+        "description": "适合个人用户",
         "features_title": "包含",
         "features": [
-          "100 积分，有效期 1 个月",
-          "NextJS 模板",
-          "SEO 友好结构",
-          "Stripe 支付",
-          "Supabase 数据存储",
-          "Google OAuth 和一键登录",
-          "国际化支持"
+          "每月100积分",
+          "1积分/次解释",
+          "导出HTML",
+          "HTML页面保存7天",
+          "标准AI处理速度",
+          "邮件支持"
         ],
-        "interval": "one-time",
-        "amount": 9900,
-        "cn_amount": 69900,
+        "interval": "month",
+        "amount": 0,
         "currency": "USD",
-        "price": "$99",
-        "original_price": "$199",
-        "unit": "USD",
+        "price": "¥0",
+        "unit": "元/月",
         "is_featured": false,
-        "tip": "一次付费，无限项目！",
+        "tip": "完美的入门选择",
         "button": {
-          "title": "获取 ShipAny",
+          "title": "免费开始",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
-        "product_id": "starter",
-        "product_name": "ShipAny 模板入门版",
+        "product_id": "free",
+        "product_name": "HowToExplain 免费版",
         "credits": 100,
-        "valid_months": 1
+        "valid_months": 1,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
       },
       {
-        "title": "标准版",
-        "description": "快速启动您的 SaaS 创业项目。",
+        "title": "专业版",
+        "description": "适合进阶用户",
         "label": "热门",
-        "features_title": "包含入门版所有功能，另加",
+        "features_title": "包含免费版全部功能，另加",
         "features": [
-          "200 积分，有效期 3 个月",
-          "Vercel 或 Cloudflare 部署",
-          "隐私和条款生成",
-          "Google Analytics 集成",
-          "Google Search Console 集成",
-          "Discord 社区",
-          "首次发布技术支持",
-          "终身更新"
+          "每月500积分",
+          "1积分/次解释",
+          "导出HTML、Markdown和PDF",
+          "HTML页面保存1年",
+          "优先AI处理",
+          "优先邮件支持",
+          "抢先体验新功能"
         ],
-        "interval": "one-time",
-        "amount": 19900,
-        "cn_amount": 139900,
+        "interval": "month",
+        "amount": 990,
         "currency": "USD",
-        "price": "$199",
-        "original_price": "$299",
-        "unit": "USD",
+        "price": "¥69",
+        "unit": "元/月",
         "is_featured": true,
-        "tip": "一次付费，无限项目！",
+        "tip": "专业用户的最佳选择",
         "button": {
-          "title": "获取 ShipAny",
+          "title": "升级专业版",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
-        "product_id": "standard",
-        "product_name": "ShipAny 模板标准版",
-        "credits": 200,
-        "valid_months": 3
-      },
-      {
-        "title": "高级版",
-        "description": "构建任何 AI SaaS 创业项目。",
-        "features_title": "包含标准版所有功能，另加",
-        "features": [
-          "300 积分，有效期 1 年",
-          "AI 业务功能",
-          "用户中心",
-          "积分系统",
-          "SaaS API 销售",
-          "管理系统",
-          "优先技术支持"
-        ],
-        "interval": "one-time",
-        "amount": 29900,
-        "cn_amount": 199900,
-        "currency": "USD",
-        "price": "$299",
-        "original_price": "$399",
-        "unit": "USD",
-        "is_featured": false,
-        "tip": "一次付费，无限项目！",
-        "button": {
-          "title": "获取 ShipAny",
-          "url": "/#pricing",
-          "icon": "RiFlashlightFill"
-        },
-        "product_id": "premium",
-        "product_name": "ShipAny 模板高级版",
-        "credits": 300,
-        "valid_months": 12
+        "product_id": "pro",
+        "product_name": "HowToExplain 专业版",
+        "credits": 500,
+        "valid_months": 1,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow border-2 border-primary"
       }
-    ]
+    ],
+    "className": "grid grid-cols-1 md:grid-cols-2 gap-8"
   },
   "testimonial": {
     "name": "testimonial",
@@ -440,15 +391,14 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "HowToExplain",
-      "description": "HowToExplain 是一个AI驱动的工具，让复杂主题变得简单易懂。适合教育工作者、学生和专业人士使用。",
+      "title": "How to Explain",
       "logo": {
         "src": "/logo.png",
-        "alt": "HowToExplain"
+        "alt": "How To Explain"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • HowToExplain 保留所有权利。",
+    "copyright": "© 2025 • HowToExplain All rights reserved.",
     "nav": {
       "items": [
         {
@@ -475,38 +425,23 @@
           "title": "资源",
           "children": [
             {
-              "title": "帮助中心",
-              "url": "https://help.howtoexplain.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "示例",
-              "url": "https://howtoexplain.ai/examples",
-              "target": "_blank"
+              "title": "常见问题",
+              "url": "/#faq",
+              "target": "_self"
             },
             {
               "title": "博客",
-              "url": "https://blog.howtoexplain.ai",
-              "target": "_blank"
+              "url": "/posts",
+              "target": "_self"
             }
           ]
         },
         {
-          "title": "社区",
+          "title": "联系我们",
           "children": [
             {
-              "title": "Discord",
-              "url": "https://discord.gg/howtoexplain",
-              "target": "_blank"
-            },
-            {
-              "title": "Twitter",
-              "url": "https://twitter.com/howtoexplain",
-              "target": "_blank"
-            },
-            {
-              "title": "GitHub",
-              "url": "https://github.com/howtoexplain",
+              "title": "邮箱",
+              "url": "mailto:support@howtoexplain.xyz",
               "target": "_blank"
             }
           ]
@@ -516,28 +451,10 @@
     "social": {
       "items": [
         {
-          "title": "X",
-          "icon": "RiTwitterXFill",
-          "url": "https://twitter.com/howtoexplain",
-          "target": "_blank"
-        },
-        {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/howtoexplain",
-          "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/howtoexplain",
-          "target": "_blank"
-        },
-        {
           "title": "邮箱",
           "icon": "RiMailLine",
           "url": "mailto:support@howtoexplain.xyz",
-          "target": "_self"
+          "target": "_blank"
         }
       ]
     },

@@ -54,11 +54,11 @@ export default async function ({ params }: { params: { uuid: string } }) {
         name: "slug",
         title: "Slug",
         type: "text",
-        placeholder: "what-is-shipany",
+        placeholder: "what-is-HowToExplain",
         validation: {
           required: true,
         },
-        tip: "post slug should be unique, visit like: /blog/what-is-shipany",
+        tip: "post slug should be unique, visit like: /blog/what-is-HowToExplain",
       },
       {
         name: "locale",

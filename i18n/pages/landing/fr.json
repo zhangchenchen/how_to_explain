@@ -24,24 +24,10 @@
         },
         {
           "title": "Blog",
-          "url": "/#blog",
+          "url": "/posts",
           "icon": "BiCube",
-          "children": [
-            {
-              "title": "AI Wallpaper Shop",
-              "description": "Générateur de Fonds d'Écran IA",
-              "icon": "MdOutlineWallpaper",
-              "url": "https://aiwallpaper.shop",
-              "target": "_blank"
-            },
-            {
-              "title": "AI Cover Generator",
-              "description": "Générateur de Couvertures IA",
-              "icon": "",
-              "url": "https://aicover.design",
-              "target": "_blank"
-            }
-          ]
+          "target": "_self",  
+          "children": [] 
         }
       ]
     },
@@ -74,7 +60,7 @@
       },
       {
         "title": "Voir la Démo",
-        "url": "https://demo.shipany.ai",
+        "url": "https://demo.HowToExplain.ai",
         "icon": "RiPlayCircleLine",
         "variant": "outline",
         "target": "_blank",
@@ -253,112 +239,73 @@
     "name": "pricing",
     "label": "Tarifs",
     "title": "Tarifs",
-    "description": "Accédez à toutes les fonctionnalités de ShipAny, lancez rapidement vos startups SaaS IA.",
+    "description": "Des plans simples et transparents pour tous",
     "groups": [],
     "items": [
       {
-        "title": "Débutant",
-        "description": "Commencez avec votre première startup SaaS.",
+        "title": "Gratuit",
+        "description": "Pour les utilisateurs individuels",
         "features_title": "Inclut",
         "features": [
-          "100 crédits, valables 1 mois",
-          "Structure NextJS",
-          "Structure optimisée pour le SEO",
-          "Paiement avec Stripe",
-          "Stockage de données avec Supabase",
-          "Google Oauth & Connexion One-Tap",
-          "Support i18n"
+          "100 crédits par mois",
+          "1 crédit par explication",
+          "Export en HTML",
+          "Pages HTML stockées pendant 7 jours",
+          "Traitement AI standard",
+          "Support par email"
         ],
-        "interval": "one-time",
-        "amount": 9900,
-        "cn_amount": 69900,
+        "interval": "month",
+        "amount": 0,
         "currency": "USD",
-        "price": "$99",
-        "original_price": "$199",
-        "unit": "USD",
+        "price": "0€",
+        "unit": "EUR/mois",
         "is_featured": false,
-        "tip": "Payez une fois. Créez des projets illimités !",
+        "tip": "Parfait pour commencer !",
         "button": {
-          "title": "Obtenir ShipAny",
+          "title": "Commencer Gratuitement",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
-        "product_id": "starter",
-        "product_name": "ShipAny Boilerplate Starter",
+        "product_id": "free",
+        "product_name": "HowToExplain Free",
         "credits": 100,
         "valid_months": 1,
         "className": "flex flex-col p-6 bg-white rounded-lg shadow"
       },
       {
-        "title": "Standard",
-        "description": "Lancez rapidement vos startups SaaS.",
+        "title": "Pro",
+        "description": "Pour les utilisateurs avancés",
         "label": "Populaire",
-        "features_title": "Tout ce qui est inclus dans Débutant, plus",
+        "features_title": "Tout ce qui est inclus dans Gratuit, plus",
         "features": [
-          "200 crédits, valables 3 mois",
-          "Déploiement avec Vercel ou Cloudflare",
-          "Génération des Conditions et Confidentialité",
-          "Intégration Google Analytics",
-          "Intégration Google Search Console",
-          "Communauté Discord",
-          "Support technique pour votre premier lancement",
-          "Mises à jour à vie"
+          "500 crédits par mois",
+          "1 crédit par explication",
+          "Export en HTML, Markdown et PDF",
+          "Pages HTML stockées pendant 1 an",
+          "Traitement AI prioritaire",
+          "Support prioritaire par email",
+          "Accès anticipé aux nouvelles fonctionnalités"
         ],
-        "interval": "one-time",
-        "amount": 19900,
-        "cn_amount": 139900,
+        "interval": "month",
+        "amount": 990,
         "currency": "USD",
-        "price": "$199",
-        "original_price": "$299",
-        "unit": "USD",
+        "price": "9.9€",
+        "unit": "EUR/mois",
         "is_featured": true,
-        "tip": "Pay once. Build unlimited projects!",
+        "tip": "Le choix le plus populaire pour les professionnels",
         "button": {
-          "title": "Get ShipAny",
+          "title": "Passer à Pro",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
-        "product_id": "standard",
-        "product_name": "ShipAny Boilerplate Standard",
-        "credits": 200,
-        "valid_months": 3,
-        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
-      },
-      {
-        "title": "Premium",
-        "description": "Lancez n'importe quelle startup SaaS IA.",
-        "features_title": "Tout ce qui est inclus dans Standard, plus",
-        "features": [
-          "300 crédits, valables 1 an",
-          "Fonctions commerciales avec IA",
-          "Centre utilisateur",
-          "Système de crédits",
-          "Vente d'API pour votre SaaS",
-          "Système d'administration",
-          "Support technique prioritaire"
-        ],
-        "interval": "one-time",
-        "amount": 29900,
-        "cn_amount": 199900,
-        "currency": "USD",
-        "price": "$299",
-        "original_price": "$399",
-        "unit": "USD",
-        "is_featured": false,
-        "tip": "Pay once. Build unlimited projects!",
-        "button": {
-          "title": "Get ShipAny",
-          "url": "/#pricing",
-          "icon": "RiFlashlightFill"
-        },
-        "product_id": "premium",
-        "product_name": "ShipAny Boilerplate Premium",
-        "credits": 300,
-        "valid_months": 12,
-        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
+        "product_id": "pro",
+        "product_name": "HowToExplain Pro",
+        "credits": 500,
+        "valid_months": 1,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow border-2 border-primary"
       }
     ],
-    "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+    "className": "grid grid-cols-1 md:grid-cols-2 gap-8"
   },
   "testimonial": {
     "name": "testimonial",

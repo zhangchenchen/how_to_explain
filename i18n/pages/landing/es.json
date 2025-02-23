@@ -24,24 +24,10 @@
         },
         {
           "title": "Blog",
-          "url": "/#blog",
+          "url": "/posts",
           "icon": "BiCube",
-          "children": [
-            {
-              "title": "AI Wallpaper Shop",
-              "description": "Generador de Fondos de Pantalla con IA",
-              "icon": "MdOutlineWallpaper",
-              "url": "https://aiwallpaper.shop",
-              "target": "_blank"
-            },
-            {
-              "title": "AI Cover Generator",
-              "description": "Generador de Portadas con IA",
-              "icon": "",
-              "url": "https://aicover.design",
-              "target": "_blank"
-            }
-          ]
+          "target": "_self",  
+          "children": [] 
         }
       ]
     },
@@ -74,7 +60,7 @@
       },
       {
         "title": "Ver Demo",
-        "url": "https://demo.shipany.ai",
+        "url": "https://demo.HowToExplain.ai",
         "icon": "RiPlayCircleLine", 
         "variant": "outline",
         "target": "_blank",
@@ -252,112 +238,73 @@
     "name": "pricing",
     "label": "Precios",
     "title": "Precios",
-    "description": "Obtén todas las características de ShipAny, lanza tus startups de SaaS con IA rápidamente.",
+    "description": "Planes simples y transparentes para todos",
     "groups": [],
     "items": [
       {
-        "title": "Inicial",
-        "description": "Comienza con tu primera startup SaaS.",
+        "title": "Free",
+        "description": "Para usuarios individuales",
         "features_title": "Incluye",
         "features": [
-          "100 créditos, válidos por 1 mes",
-          "Plantilla NextJS",
-          "Estructura optimizada para SEO",
-          "Pagos con Stripe",
-          "Almacenamiento de datos con Supabase",
-          "Inicio de sesión con Google y One-Tap",
-          "Soporte de internacionalización"
+          "100 créditos por mes",
+          "1 crédito por explicación",
+          "Exportar a HTML",
+          "HTML páginas almacenadas por 7 días",
+          "Procesamiento AI estándar",
+          "Soporte por email"
         ],
-        "interval": "one-time",
-        "amount": 9900,
-        "cn_amount": 69900,
+        "interval": "month",
+        "amount": 0,
         "currency": "USD",
-        "price": "$99",
-        "original_price": "$199",
-        "unit": "USD",
+        "price": "$0",
+        "unit": "USD/mes",
         "is_featured": false,
-        "tip": "¡Paga una vez, construye proyectos ilimitados!",
+        "tip": "¡Perfecto para empezar!",
         "button": {
-          "title": "Obtener ShipAny",
+          "title": "Comenzar Gratis",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
-        "product_id": "starter",
-        "product_name": "ShipAny Boilerplate Starter",
+        "product_id": "free",
+        "product_name": "HowToExplain Free",
         "credits": 100,
         "valid_months": 1,
         "className": "flex flex-col p-6 bg-white rounded-lg shadow"
       },
       {
-        "title": "Estándar",
-        "description": "Lanza rápidamente tus startups SaaS.",
+        "title": "Pro",
+        "description": "Para usuarios avanzados",
         "label": "Popular",
-        "features_title": "Todo lo del plan Inicial, más",
+        "features_title": "Todo lo de Free, más",
         "features": [
-          "200 créditos, válidos por 3 meses",
-          "Despliegue con Vercel o Cloudflare",
-          "Generación de Privacidad y Términos",
-          "Integración con Google Analytics",
-          "Integración con Google Search Console",
-          "Comunidad Discord",
-          "Soporte técnico para tu primer lanzamiento",
-          "Actualizaciones de por vida"
+          "500 créditos por mes",
+          "1 crédito por explicación",
+          "Exportar a HTML, Markdown y PDF",
+          "HTML páginas almacenadas por 1 año",
+          "Procesamiento AI prioritario",
+          "Soporte prioritario por email",
+          "Acceso anticipado a nuevas funciones"
         ],
-        "interval": "one-time",
-        "amount": 19900,
-        "cn_amount": 139900,
+        "interval": "month",
+        "amount": 990,
         "currency": "USD",
-        "price": "$199",
-        "original_price": "$299",
-        "unit": "USD",
+        "price": "$9.9",
+        "unit": "USD/mes",
         "is_featured": true,
-        "tip": "¡Paga una vez, construye proyectos ilimitados!",
+        "tip": "La opción más popular para profesionales",
         "button": {
-          "title": "Obtener ShipAny",
+          "title": "Actualizar a Pro",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
-        "product_id": "standard",
-        "product_name": "ShipAny Boilerplate Standard",
-        "credits": 200,
-        "valid_months": 3,
-        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
-      },
-      {
-        "title": "Premium",
-        "description": "Lanza cualquier startup SaaS con IA.",
-        "features_title": "Todo lo del plan Estándar, más",
-        "features": [
-          "300 créditos, válidos por 1 año",
-          "Funciones empresariales con IA",
-          "Centro de usuarios",
-          "Sistema de créditos",
-          "Ventas de API para tu SaaS",
-          "Sistema de administración",
-          "Soporte técnico prioritario"
-        ],
-        "interval": "one-time",
-        "amount": 29900,
-        "cn_amount": 199900,
-        "currency": "USD",
-        "price": "$299",
-        "original_price": "$399",
-        "unit": "USD",
-        "is_featured": false,
-        "tip": "¡Paga una vez, construye proyectos ilimitados!",
-        "button": {
-          "title": "Obtener ShipAny",
-          "url": "/#pricing",
-          "icon": "RiFlashlightFill"
-        },
-        "product_id": "premium",
-        "product_name": "ShipAny Boilerplate Premium",
-        "credits": 300,
-        "valid_months": 12,
-        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
+        "product_id": "pro",
+        "product_name": "HowToExplain Pro",
+        "credits": 500,
+        "valid_months": 1,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow border-2 border-primary"
       }
     ],
-    "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+    "className": "grid grid-cols-1 md:grid-cols-2 gap-8"
   },
   "testimonial": {
     "name": "testimonial",
@@ -457,15 +404,14 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "HowToExplain",
-      "description": "HowToExplain es una herramienta impulsada por IA que hace que los temas complejos sean fáciles de entender. Perfecto para educadores, estudiantes y profesionales.",
+      "title": "How to Explain",
       "logo": {
         "src": "/logo.png",
-        "alt": "HowToExplain"
+        "alt": "How To Explain"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • HowToExplain Todos los derechos reservados.",
+    "copyright": "© 2025 • HowToExplain All rights reserved.",
     "nav": {
       "items": [
         {
@@ -473,15 +419,13 @@
           "children": [
             {
               "title": "Características",
-              "url": "/#feature"
-            },
-            {
-              "title": "Cómo Funciona",
-              "url": "/#usage"
+              "url": "/#feature",
+              "target": "_self"
             },
             {
               "title": "Precios",
-              "url": "/#pricing"
+              "url": "/#pricing",
+              "target": "_self"
             }
           ]
         },
@@ -489,33 +433,24 @@
           "title": "Recursos",
           "children": [
             {
-              "title": "Centro de Ayuda",
-              "url": "https://help.howtoexplain.ai"
-            },
-            {
-              "title": "Ejemplos",
-              "url": "https://howtoexplain.ai/examples"
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
             },
             {
               "title": "Blog",
-              "url": "https://blog.howtoexplain.ai"
+              "url": "/posts",
+              "target": "_self"
             }
           ]
         },
         {
-          "title": "Comunidad",
+          "title": "Contacto",
           "children": [
             {
-              "title": "Discord",
-              "url": "https://discord.gg/howtoexplain"
-            },
-            {
-              "title": "Twitter",
-              "url": "https://twitter.com/howtoexplain"
-            },
-            {
-              "title": "GitHub",
-              "url": "https://github.com/howtoexplain"
+              "title": "Email",
+              "url": "mailto:support@howtoexplain.xyz",
+              "target": "_blank"
             }
           ]
         }
@@ -524,28 +459,10 @@
     "social": {
       "items": [
         {
-          "title": "X",
-          "icon": "RiTwitterXFill",
-          "url": "https://x.com/howtoexplain",
-          "target": "_blank"
-        },
-        {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/howtoexplain",
-          "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/howtoexplain",
-          "target": "_blank"
-        },
-        {
           "title": "Email",
           "icon": "RiMailLine",
-          "url": "mailto:support@howtoexplain.ai",
-          "target": "_self"
+          "url": "mailto:support@howtoexplain.xyz",
+          "target": "_blank"
         }
       ]
     },

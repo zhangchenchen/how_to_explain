@@ -22,10 +22,10 @@ export default async function AdminLayout({
 
   const sidebar: Sidebar = {
     brand: {
-      title: "ShipAny",
+      title: "HowToExplain",
       logo: {
         src: "/logo.png",
-        alt: "ShipAny",
+        alt: "HowToExplain",
       },
       url: "/admin",
     },
@@ -64,7 +64,7 @@ export default async function AdminLayout({
         },
         {
           title: "Github",
-          url: "https://github.com/shipanyai/shipany-template-one",
+          url: "https://github.com/HowToExplainai/HowToExplain-template-one",
           target: "_blank",
           icon: "RiGithubLine",
         },
@@ -76,7 +76,7 @@ export default async function AdminLayout({
         },
         {
           title: "X",
-          url: "https://x.com/shipanyai",
+          url: "https://x.com/HowToExplainai",
           target: "_blank",
           icon: "RiTwitterLine",
         },

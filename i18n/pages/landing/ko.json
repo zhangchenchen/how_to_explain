@@ -24,24 +24,10 @@
         },
         {
           "title": "Blog",
-          "url": "/#blog",
+          "url": "/posts",
           "icon": "BiCube",
-          "children": [
-            {
-              "title": "AI Wallpaper Shop",
-              "description": "AI 배경화면 생성기",
-              "icon": "MdOutlineWallpaper",
-              "url": "https://aiwallpaper.shop",
-              "target": "_blank"
-            },
-            {
-              "title": "AI Cover Generator",
-              "description": "AI 커버 생성기",
-              "icon": "",
-              "url": "https://aicover.design",
-              "target": "_blank"
-            }
-          ]
+          "target": "_self",  
+          "children": [] 
         }
       ]
     },
@@ -74,7 +60,7 @@
       },
       {
         "title": "데모 보기",
-        "url": "https://demo.shipany.ai",
+        "url": "https://demo.HowToExplain.ai",
         "icon": "RiPlayCircleLine", 
         "variant": "outline",
         "target": "_blank",
@@ -249,112 +235,75 @@
   },
   "pricing": {
     "name": "pricing",
-    "label": "가격",
-    "title": "가격",
-    "description": "ShipAny의 모든 기능을 사용하여 AI SaaS 스타트업을 빠르게 출시하세요.",
+    "label": "요금제",
+    "title": "요금제",
+    "description": "모두를 위한 간단하고 투명한 요금제",
     "groups": [],
     "items": [
       {
-        "title": "스타터",
-        "description": "첫 SaaS 스타트업을 시작하세요.",
+        "title": "무료",
+        "description": "개인 사용자용",
         "features_title": "포함 사항",
         "features": [
-          "100 크레딧, 1개월 유효",
-          "NextJS 보일러플레이트",
-          "SEO 친화적 구조",
-          "Stripe 결제",
-          "Supabase 데이터 저장소",
-          "Google OAuth 및 원탭 로그인",
-          "다국어 지원"
+          "월 100 크레딧",
+          "설명당 1 크레딧",
+          "HTML 내보내기",
+          "HTML 페이지 7일 보관",
+          "표준 AI 처리",
+          "이메일 지원"
         ],
-        "interval": "one-time",
-        "amount": 9900,
-        "cn_amount": 69900,
+        "interval": "month",
+        "amount": 0,
         "currency": "USD",
-        "price": "$99",
-        "original_price": "$199",
-        "unit": "USD",
+        "price": "₩0",
+        "unit": "원/월",
         "is_featured": false,
-        "tip": "한 번 결제로 무제한 프로젝트 구축!",
+        "tip": "시작하기에 완벽한 선택!",
         "button": {
-          "title": "ShipAny 시작하기",
+          "title": "무료로 시작하기",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
-        "product_id": "starter",
-        "product_name": "ShipAny Boilerplate Starter",
+        "product_id": "free",
+        "product_name": "HowToExplain Free",
         "credits": 100,
         "valid_months": 1,
         "className": "flex flex-col p-6 bg-white rounded-lg shadow"
       },
       {
-        "title": "스탠다드",
-        "description": "SaaS 스타트업을 빠르게 출시하세요.",
+        "title": "프로",
+        "description": "고급 사용자용",
         "label": "인기",
-        "features_title": "스타터의 모든 기능에 추가로",
+        "features_title": "무료 버전의 모든 기능에 추가로",
         "features": [
-          "200 크레딧, 3개월 유효",
-          "Vercel 또는 Cloudflare 배포",
-          "개인정보 처리방침 및 이용약관 생성",
-          "Google Analytics 통합",
-          "Google Search Console 통합",
-          "Discord 커뮤니티",
-          "첫 출시를 위한 기술 지원",
-          "평생 업데이트"
+          "월 500 크레딧",
+          "설명당 1 크레딧",
+          "HTML, Markdown, PDF 내보내기",
+          "HTML 페이지 1년 보관",
+          "우선 AI 처리",
+          "우선 이메일 지원",
+          "신규 기능 우선 이용"
         ],
-        "interval": "one-time",
-        "amount": 19900,
-        "cn_amount": 139900,
+        "interval": "month",
+        "amount": 990,
         "currency": "USD",
-        "price": "$199",
-        "original_price": "$299",
-        "unit": "USD",
+        "price": "₩12,000",
+        "unit": "원/월",
         "is_featured": true,
-        "tip": "Pay once. Build unlimited projects!",
+        "tip": "전문가들이 선택하는 인기 요금제",
         "button": {
-          "title": "Get ShipAny",
+          "title": "프로로 업그레이드",
           "url": "/#pricing",
           "icon": "RiFlashlightFill"
         },
-        "product_id": "standard",
-        "product_name": "ShipAny Boilerplate Standard",
-        "credits": 200,
-        "valid_months": 3,
-        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
-      },
-      {
-        "title": "프리미엄",
-        "description": "모든 AI SaaS 스타트업을 출시하세요.",
-        "features_title": "스탠다드의 모든 기능에 추가로",
-        "features": [
-          "300 크레딧, 1년 유효",
-          "AI 기반 비즈니스 기능",
-          "사용자 센터",
-          "크레딧 시스템",
-          "SaaS용 API 판매",
-          "관리자 시스템",
-          "우선 기술 지원"
-        ],
-        "interval": "one-time",
-        "amount": 29900,
-        "cn_amount": 199900,
-        "currency": "USD",
-        "price": "$299",
-        "original_price": "$399",
-        "unit": "USD",
-        "is_featured": false,
-        "tip": "한 번 결제로 무제한 프로젝트 구축!",
-        "button": {
-          "title": "ShipAny 시작하기"
-        },
-        "product_id": "premium",
-        "product_name": "ShipAny Boilerplate Premium",
-        "credits": 300,
-        "valid_months": 12,
-        "className": "flex flex-col p-6 bg-white rounded-lg shadow"
+        "product_id": "pro",
+        "product_name": "HowToExplain Pro",
+        "credits": 500,
+        "valid_months": 1,
+        "className": "flex flex-col p-6 bg-white rounded-lg shadow border-2 border-primary"
       }
     ],
-    "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+    "className": "grid grid-cols-1 md:grid-cols-2 gap-8"
   },
   "testimonial": {
     "name": "testimonial",
@@ -454,15 +403,14 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "HowToExplain",
-      "description": "HowToExplain은 복잡한 주제를 이해하기 쉽게 만드는 AI 기반 도구입니다. 교육자, 학생, 전문가들에게 완벽한 도구입니다.",
+      "title": "How to Explain",
       "logo": {
         "src": "/logo.png",
-        "alt": "HowToExplain"
+        "alt": "How To Explain"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • HowToExplain 모든 권리 보유.",
+    "copyright": "© 2025 • HowToExplain All rights reserved.",
     "nav": {
       "items": [
         {
@@ -470,15 +418,13 @@
           "children": [
             {
               "title": "기능",
-              "url": "/#feature"
+              "url": "/#feature",
+              "target": "_self"
             },
             {
-              "title": "사용 방법",
-              "url": "/#usage"
-            },
-            {
-              "title": "가격",
-              "url": "/#pricing"
+              "title": "요금제",
+              "url": "/#pricing",
+              "target": "_self"
             }
           ]
         },
@@ -486,33 +432,24 @@
           "title": "리소스",
           "children": [
             {
-              "title": "고객 센터",
-              "url": "https://help.howtoexplain.ai"
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
             },
             {
-              "title": "예시",
-              "url": "https://howtoexplain.ai/examples"
-            },
-            {
-              "title": "Blog",
-              "url": "https://blog.howtoexplain.ai"
+              "title": "블로그",
+              "url": "/posts",
+              "target": "_self"
             }
           ]
         },
         {
-          "title": "커뮤니티",
+          "title": "연락하기",
           "children": [
             {
-              "title": "Discord",
-              "url": "https://discord.gg/howtoexplain"
-            },
-            {
-              "title": "Twitter",
-              "url": "https://twitter.com/howtoexplain"
-            },
-            {
-              "title": "GitHub",
-              "url": "https://github.com/howtoexplain"
+              "title": "이메일",
+              "url": "mailto:support@howtoexplain.xyz",
+              "target": "_blank"
             }
           ]
         }
@@ -521,28 +458,10 @@
     "social": {
       "items": [
         {
-          "title": "X",
-          "icon": "RiTwitterXFill",
-          "url": "https://x.com/howtoexplain",
-          "target": "_blank"
-        },
-        {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/howtoexplain",
-          "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/howtoexplain",
-          "target": "_blank"
-        },
-        {
-          "title": "Email",
+          "title": "메일",
           "icon": "RiMailLine",
-          "url": "mailto:support@howtoexplain.ai",
-          "target": "_self"
+          "url": "mailto:support@howtoexplain.xyz",
+          "target": "_blank"
         }
       ]
     },
