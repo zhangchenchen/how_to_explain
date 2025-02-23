@@ -36,8 +36,13 @@
     "show_locale": true
   },
   "hero": {
+    "promotion": {
+      "text": "🎁 신규 사용자에게 10 크레딧 무료 제공!",
+      "className": "text-2xl font-bold text-primary-600 py-4"
+    },
     "title": "모든 것을 쉽게 이해할 수 있도록",
     "description": "1. 복잡한 질문이나 URL 링크 입력<br />2. 대상 청중 선택 (어린이, 초보자)<br />3. 시작 버튼을 클릭하여 설명 받기",
+    "tip": "✨ 신규 사용자에게 10 크레딧 무료 제공! AI 설명의 여정을 시작하세요!",
     "feature": {
       "items": [
         {

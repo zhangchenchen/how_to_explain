@@ -36,8 +36,13 @@
     "show_locale": true
   },
   "hero": {
+    "promotion": {
+      "text": "🎁 ¡Los nuevos usuarios reciben 10 créditos gratis!",
+      "className": "text-xl font-semibold text-gradient bg-gradient-to-r from-primary-500 to-secondary-500 mb-4 inline-block"
+    },
     "title": "Haz que Todo sea Fácil de Entender",
     "description": "1. Ingresa cualquier pregunta compleja o enlace URL<br />2. Elige tu audiencia objetivo (niños, principiantes)<br />3. Haz clic en el botón de inicio para obtener tu explicación",
+    "tip": "✨ ¡Los nuevos usuarios reciben 10 créditos gratis para comenzar su viaje!",
     "feature": {
       "items": [
         {

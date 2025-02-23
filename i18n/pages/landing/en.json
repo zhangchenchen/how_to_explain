@@ -38,6 +38,9 @@
   "hero": {
     "title": "Make Everything Easy to Understand",
     "description": "1. Input any complex question or url link<br />2. Choose your target audience (kids, beginners)<br />3. Click start button to get your explanation",
+    "tip": "✨ New users get 10 free credits to start your journey!",
+    "show_happy_users": true,
+    "show_badge": false,
     "feature": {
       "items": [
         {
@@ -259,7 +262,7 @@
         "amount": 2.9,
         "currency": "USD",
         "price": "$2.9",
-        "unit": "USD",
+        "unit": "USD/month",
         "is_featured": false,
         "tip": "No credit card required",
         "button": {

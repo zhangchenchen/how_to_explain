@@ -163,9 +163,20 @@ export default function Hero({ hero }: { hero: HeroType }) {
             </div>
 
             {hero.tip && (
-              <p className="mt-8 text-base text-muted-foreground/80 animate-fade-in">
-                {hero.tip}
-              </p>
+              <div className="mt-12 relative group mx-auto max-w-3xl">
+                <div className="absolute -inset-1 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 
+                  rounded-xl blur opacity-20 group-hover:opacity-30 transition duration-300"></div>
+                <p className="relative px-6 py-3 text-lg font-medium
+                  bg-white/80 dark:bg-gray-900/80
+                  rounded-xl backdrop-blur-sm
+                  group-hover:bg-white/90 dark:group-hover:bg-gray-900/90
+                  transition-all duration-300
+                  flex items-center justify-center">
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">
+                    {hero.tip}
+                  </span>
+                </p>
+              </div>
             )}
           </div>
         </div>

@@ -36,8 +36,13 @@
     "show_locale": true
   },
   "hero": {
+    "promotion": {
+      "text": "🎁 Les nouveaux utilisateurs reçoivent 10 crédits gratuits !",
+      "className": "text-2xl font-bold text-primary-600 py-4"
+    },
     "title": "Rendez Tout Facile à Comprendre",
     "description": "1. Saisissez une question complexe ou un lien URL<br />2. Choisissez votre public cible (enfants, débutants)<br />3. Cliquez sur démarrer pour obtenir votre explication",
+    "tip": "✨ Les nouveaux utilisateurs reçoivent 10 crédits gratuits pour commencer leur voyage !",
     "feature": {
       "items": [
         {
@@ -258,7 +263,7 @@
         "amount": 0,
         "currency": "USD",
         "price": "$2.9",
-        "unit": "USD",
+        "unit": "USD/month",
         "is_featured": false,
         "tip": "Parfait pour commencer !",
         "button": {
@@ -289,8 +294,8 @@
         "interval": "month",
         "amount": 990,
         "currency": "USD",
-        "price": "9.9€",
-        "unit": "EUR/mois",
+        "price": "$9.9",
+        "unit": "USD/month",
         "is_featured": true,
         "tip": "Le choix le plus populaire pour les professionnels",
         "button": {

@@ -36,8 +36,13 @@
     "show_locale": true
   },
   "hero": {
+    "promotion": {
+      "text": "🎁 新規ユーザーに10クレジットを無料プレゼント！",
+      "className": "text-2xl font-bold text-primary-600 py-4"
+    },
     "title": "すべてを分かりやすく",
     "description": "1. 複雑な質問やURLリンクを入力<br />2. 対象者を選択（子供、初心者）<br />3. スタートボタンをクリックして説明を取得",
+    "tip": "✨ 新規ユーザーに10クレジットを無料プレゼント！AIによる説明の旅を始めましょう！",
     "feature": {
       "items": [
         {
@@ -259,7 +264,7 @@
         "amount": 0,
         "currency": "USD",
         "price": "$2.9",
-        "unit": "USD",
+        "unit": "USD/month",
         "is_featured": false,
         "tip": "始めるのに最適！",
         "button": {
@@ -291,7 +296,7 @@
         "amount": 990,
         "currency": "USD",
         "price": "$9.9",
-        "unit": "USD",
+        "unit": "USD/month",
         "is_featured": true,
         "tip": "プロフェッショナル向けの人気プラン",
         "button": {
