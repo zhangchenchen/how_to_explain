@@ -244,7 +244,7 @@
     "groups": [],
     "items": [
       {
-        "title": "Free",
+        "title": "Basic",
         "description": "Perfect for trying out or personal use",
         "features_title": "Includes",
         "features": [
@@ -256,9 +256,9 @@
           "Community support"
         ],
         "interval": "month",
-        "amount": 0,
+        "amount": 2.9,
         "currency": "USD",
-        "price": "$0",
+        "price": "$2.9",
         "unit": "USD",
         "is_featured": false,
         "tip": "No credit card required",

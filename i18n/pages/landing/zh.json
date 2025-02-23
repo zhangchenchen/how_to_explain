@@ -229,7 +229,7 @@
     "groups": [],
     "items": [
       {
-        "title": "免费版",
+        "title": "基础版",
         "description": "适合个人用户",
         "features_title": "包含",
         "features": [
@@ -243,8 +243,8 @@
         "interval": "month",
         "amount": 0,
         "currency": "USD",
-        "price": "¥0",
-        "unit": "元/月",
+        "price": "$2.9",
+        "unit": "USD/month",
         "is_featured": false,
         "tip": "完美的入门选择",
         "button": {
@@ -275,8 +275,8 @@
         "interval": "month",
         "amount": 990,
         "currency": "USD",
-        "price": "¥69",
-        "unit": "元/月",
+        "price": "$9.9",
+        "unit": "USD/月",
         "is_featured": true,
         "tip": "专业用户的最佳选择",
         "button": {

@@ -241,7 +241,7 @@
     "groups": [],
     "items": [
       {
-        "title": "무료",
+        "title": "Basic",
         "description": "개인 사용자용",
         "features_title": "포함 사항",
         "features": [
@@ -255,8 +255,8 @@
         "interval": "month",
         "amount": 0,
         "currency": "USD",
-        "price": "₩0",
-        "unit": "원/월",
+        "price": "$2.9",
+        "unit": "USD/month",
         "is_featured": false,
         "tip": "시작하기에 완벽한 선택!",
         "button": {
@@ -287,8 +287,8 @@
         "interval": "month",
         "amount": 990,
         "currency": "USD",
-        "price": "₩12,000",
-        "unit": "원/월",
+        "price": "$9.9",
+        "unit": "USD/month",
         "is_featured": true,
         "tip": "전문가들이 선택하는 인기 요금제",
         "button": {

@@ -244,7 +244,7 @@
     "groups": [],
     "items": [
       {
-        "title": "無料プラン",
+        "title": "Basic",
         "description": "個人ユーザー向け",
         "features_title": "含まれる機能",
         "features": [
@@ -258,8 +258,8 @@
         "interval": "month",
         "amount": 0,
         "currency": "USD",
-        "price": "¥0",
-        "unit": "円/月",
+        "price": "$2.9",
+        "unit": "USD",
         "is_featured": false,
         "tip": "始めるのに最適！",
         "button": {
@@ -290,8 +290,8 @@
         "interval": "month",
         "amount": 990,
         "currency": "USD",
-        "price": "¥990",
-        "unit": "円/月",
+        "price": "$9.9",
+        "unit": "USD",
         "is_featured": true,
         "tip": "プロフェッショナル向けの人気プラン",
         "button": {
