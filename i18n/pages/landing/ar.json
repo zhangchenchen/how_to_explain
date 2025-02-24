@@ -247,12 +247,12 @@
           "تصدير بصيغة HTML",
           "تخزين صفحات HTML لمدة 7 أيام",
           "معالجة AI قياسية",
-          "دعم عبر البريد الإلكتروني"
+          "دعم ��بر البريد ال��لكتروني"
         ],
         "interval": "month",
-        "amount": 0,
+        "amount": 5,
         "currency": "USD",
-        "price": "$2.9",
+        "price": "$5",
         "unit": "USD/month",
         "is_featured": false,
         "tip": "مثالي للبدء!",
@@ -282,12 +282,12 @@
           "وصول مبكر للميزات الجديدة"
         ],
         "interval": "month",
-        "amount": 990,
+        "amount": 10,
         "currency": "USD",
-        "price": "$9.9",
+        "price": "$10",
         "unit": "دولار/شهر",
         "is_featured": true,
-        "tip": "الخيار الأكثر شعبية للمحترفين",
+        "tip": "الخيار ال��ك��ر شعبي�� للمحترفين",
         "button": {
           "title": "الترقية إلى احترافي",
           "url": "/#pricing",

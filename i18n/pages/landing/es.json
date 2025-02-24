@@ -259,9 +259,9 @@
           "Soporte por email"
         ],
         "interval": "month",
-        "amount": 0,
+        "amount": 5,
         "currency": "USD",
-        "price": "$2.9",
+        "price": "$5",
         "unit": "USD/mes",
         "is_featured": false,
         "tip": "¡Perfecto para empezar!",
@@ -291,9 +291,9 @@
           "Acceso anticipado a nuevas funciones"
         ],
         "interval": "month",
-        "amount": 990,
+        "amount": 10,
         "currency": "USD",
-        "price": "$9.9",
+        "price": "$10",
         "unit": "USD/mes",
         "is_featured": true,
         "tip": "La opción más popular para profesionales",

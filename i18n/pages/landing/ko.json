@@ -258,9 +258,9 @@
           "이메일 지원"
         ],
         "interval": "month",
-        "amount": 0,
+        "amount": 5,
         "currency": "USD",
-        "price": "$2.9",
+        "price": "$5",
         "unit": "USD/month",
         "is_featured": false,
         "tip": "시작하기에 완벽한 선택!",
@@ -290,9 +290,9 @@
           "신규 기능 우선 이용"
         ],
         "interval": "month",
-        "amount": 990,
+        "amount": 10,
         "currency": "USD",
-        "price": "$9.9",
+        "price": "$10",
         "unit": "USD/month",
         "is_featured": true,
         "tip": "전문가들이 선택하는 인기 요금제",

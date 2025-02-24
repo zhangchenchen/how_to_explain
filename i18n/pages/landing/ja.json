@@ -261,9 +261,9 @@
           "メールサポート"
         ],
         "interval": "month",
-        "amount": 0,
+        "amount": 50,
         "currency": "USD",
-        "price": "$2.9",
+        "price": "$5",
         "unit": "USD/month",
         "is_featured": false,
         "tip": "始めるのに最適！",
@@ -293,9 +293,9 @@
           "新機能への早期アクセス"
         ],
         "interval": "month",
-        "amount": 990,
+        "amount": 10,
         "currency": "USD",
-        "price": "$9.9",
+        "price": "$10",
         "unit": "USD/month",
         "is_featured": true,
         "tip": "プロフェッショナル向けの人気プラン",
