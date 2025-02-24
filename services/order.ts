@@ -51,3 +51,114 @@ export async function handleOrderSession(session: Stripe.Checkout.Session) {
     throw e;
   }
 }
+
+interface CreamPaymentParams {
+  checkout_id: string;
+  order_id: string;
+  customer_id: string;
+  subscription_id?: string;
+  product_id: string;
+  request_id?: string;
+}
+
+export async function handleCreamPayment(params: CreamPaymentParams) {
+  try {
+    // request_id 就是我们的 order_no
+    const order_no = params.request_id;
+    if (!order_no) {
+      throw new Error("invalid request_id");
+    }
+
+    const order = await findOrderByOrderNo(order_no);
+    if (!order || order.status !== "created") {
+      throw new Error("invalid order");
+    }
+
+    const paid_at = getIsoTimestr();
+    const paid_detail = JSON.stringify(params);
+
+    // 更新订单状态
+    await updateOrderStatus(
+      order_no,
+      "paid",
+      paid_at,
+      order.user_email, // 使用订单中的邮箱
+      paid_detail
+    );
+
+    // 增加用户积分
+    if (order.user_uuid && order.credits > 0) {
+      await increaseCredits({
+        user_uuid: order.user_uuid,
+        trans_type: CreditsTransType.OrderPay,
+        credits: order.credits,
+        expired_at: order.expired_at,
+        order_no: order_no,
+      });
+    }
+
+    console.log(
+      "handle cream payment successed: ",
+      order_no,
+      paid_at,
+      order.user_email,
+      paid_detail
+    );
+  } catch (e) {
+    console.log("handle cream payment failed: ", e);
+    throw e;
+  }
+}
+
+export async function handleCreamPaymentEvent(params: CreamPaymentParams) {
+  try {
+    // request_id 就是我们的 order_no
+    const order_no = params.request_id;
+    if (!order_no) {
+      throw new Error("invalid request_id");
+    }
+
+    const order = await findOrderByOrderNo(order_no);
+    if (!order) {
+      throw new Error("invalid order");
+    }
+
+    if (order.status == "paid") {
+      return;
+    }
+
+    const paid_at = getIsoTimestr();
+    const paid_detail = JSON.stringify(params);
+
+    // 更新订单状态
+    await updateOrderStatus(
+      order_no,
+      "paid",
+      paid_at,
+      order.user_email, // 使用订单中的邮箱
+      paid_detail
+    );
+
+    // 增加用户积分
+    if (order.user_uuid && order.credits > 0) {
+      await increaseCredits({
+        user_uuid: order.user_uuid,
+        trans_type: CreditsTransType.OrderPay,
+        credits: order.credits,
+        expired_at: order.expired_at,
+        order_no: order_no,
+      });
+    }
+
+    console.log(
+      "handle cream payment successed: ",
+      order_no,
+      paid_at,
+      order.user_email,
+      paid_detail
+    );
+  } catch (e) {
+    console.log("handle cream payment failed: ", e);
+    throw e;
+  }
+}

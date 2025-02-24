@@ -6,6 +6,7 @@ import { Order } from "@/types/order";
 import Stripe from "stripe";
 import { findUserByUuid } from "@/models/user";
 import { getSnowId } from "@/lib/hash";
+import axios from "axios";
 
 export async function POST(req: Request) {
   try {
@@ -18,6 +19,7 @@ export async function POST(req: Request) {
       product_name,
       valid_months,
       cancel_url,
+      payment_type = "stripe",
     } = await req.json();
 
     if (!cancel_url) {
@@ -101,73 +103,154 @@ export async function POST(req: Request) {
     };
     await insertOrder(order);
 
-    const stripe = new Stripe(process.env.STRIPE_PRIVATE_KEY || "");
-
-    let options: Stripe.Checkout.SessionCreateParams = {
-      payment_method_types: ["card"],
-      line_items: [
-        {
-          price_data: {
-            currency: currency,
-            product_data: {
-              name: product_name,
-            },
-            unit_amount: amount,
-            recurring: is_subscription
-              ? {
-                  interval: interval,
-                }
-              : undefined,
+    if (payment_type === "cream") {
+      try {
+        if (product_id === "Basic") {
+          product_id = process.env.CREAM_BASIC_PRODUCT_ID;
+        } else if (product_id === "Pro") {
+          product_id = process.env.CREAM_PRO_PRODUCT_ID;
+        }
+        
+        const requestBody = {
+          product_id: product_id,
+          request_id: order_no.toString(),
+          success_url: `${process.env.NEXT_PUBLIC_WEB_URL}/cream-pay-success`,
+          customer: {
+            email: user_email
           },
-          quantity: 1,
+          metadata: {
+            order_no: order_no.toString(),
+            user_email: user_email,
+            credits: credits,
+            user_uuid: user_uuid,
+            product_name: product_name
+          }
+        };
+
+        console.log("Creating cream checkout with params:", {
+          endpoint: process.env.CREAM_ENDPOINT,
+          requestBody,
+          headers: {
+            "x-api-key": "***" // 隐藏实际的 API key
+          }
+        });
+
+        const endpoint = process.env.CREAM_ENDPOINT || "";
+        const response = await axios.post(
+          `${endpoint}/v1/checkouts`,
+          requestBody,
+          {
+            headers: { 
+              "x-api-key": process.env.CREAM_API_KEY || "",
+              "Content-Type": "application/json"
+            }
+          }
+        ).catch(error => {
+          if (error.response) {
+            // 请求已发出，服务器响应状态码不在 2xx 范围内
+            console.error("Cream API error response:", {
+              status: error.response.status,
+              data: error.response.data,
+              headers: error.response.headers
+            });
+          } else if (error.request) {
+            // 请求已发出，但没有收到响应
+            console.error("Cream API no response:", error.request);
+          } else {
+            // 请求配置出错
+            console.error("Cream API request error:", error.message);
+          }
+          throw error;
+        });
+
+        console.log("Cream API response:", response.data);
+
+        await updateOrderSession(
+          order_no,
+          response.data.checkout_id,
+          JSON.stringify(response.data),
+          "cream"
+        );
+
+        return respData({
+          provider: "cream",
+          order_no: order_no,
+          checkout_url: response.data.checkout_url
+        });
+      } catch (e: any) {
+        console.log("cream checkout failed: ", e);
+        return respErr("cream checkout failed: " + e.message);
+      }
+    } else {
+      const stripe = new Stripe(process.env.STRIPE_PRIVATE_KEY || "");
+
+      let options: Stripe.Checkout.SessionCreateParams = {
+        payment_method_types: ["card"],
+        line_items: [
+          {
+            price_data: {
+              currency: currency,
+              product_data: {
+                name: product_name,
+              },
+              unit_amount: amount,
+              recurring: is_subscription
+                ? {
+                    interval: interval,
+                  }
+                : undefined,
+            },
+            quantity: 1,
+          },
+        ],
+        allow_promotion_codes: true,
+        metadata: {
+          project: process.env.NEXT_PUBLIC_PROJECT_NAME || "",
+          product_name: product_name,
+          order_no: order_no.toString(),
+          user_email: user_email,
+          credits: credits,
+          user_uuid: user_uuid,
         },
-      ],
-      allow_promotion_codes: true,
-      metadata: {
-        project: process.env.NEXT_PUBLIC_PROJECT_NAME || "",
-        product_name: product_name,
-        order_no: order_no.toString(),
-        user_email: user_email,
-        credits: credits,
-        user_uuid: user_uuid,
-      },
-      mode: is_subscription ? "subscription" : "payment",
-      success_url: `${process.env.NEXT_PUBLIC_WEB_URL}/pay-success/{CHECKOUT_SESSION_ID}`,
-      cancel_url: cancel_url,
-    };
-
-    if (user_email) {
-      options.customer_email = user_email;
-    }
-
-    if (is_subscription) {
-      options.subscription_data = {
-        metadata: options.metadata,
+        mode: is_subscription ? "subscription" : "payment",
+        success_url: `${process.env.NEXT_PUBLIC_WEB_URL}/pay-success/{CHECKOUT_SESSION_ID}`,
+        cancel_url: cancel_url,
       };
+
+      if (user_email) {
+        options.customer_email = user_email;
+      }
+
+      if (is_subscription) {
+        options.subscription_data = {
+          metadata: options.metadata,
+        };
+      }
+
+      if (currency === "cny") {
+        options.payment_method_types = ["wechat_pay", "alipay", "card"];
+        options.payment_method_options = {
+          wechat_pay: {
+            client: "web",
+          },
+          alipay: {},
+        };
+      }
+
+      const order_detail = JSON.stringify(options);
+
+      const session = await stripe.checkout.sessions.create(options);
+
+      const stripe_session_id = session.id;
+      await updateOrderSession(order_no, stripe_session_id, order_detail);
+
+      return respData({
+        provider: "stripe",
+        public_key: process.env.STRIPE_PUBLIC_KEY,
+        order_no: order_no,
+        session_id: stripe_session_id,
+      });
     }
-
-    if (currency === "cny") {
-      options.payment_method_types = ["wechat_pay", "alipay", "card"];
-      options.payment_method_options = {
-        wechat_pay: {
-          client: "web",
-        },
-        alipay: {},
-      };
-    }
-
-    const order_detail = JSON.stringify(options);
-
-    const session = await stripe.checkout.sessions.create(options);
-
-    const stripe_session_id = session.id;
-    await updateOrderSession(order_no, stripe_session_id, order_detail);
-
-    return respData({
-      public_key: process.env.STRIPE_PUBLIC_KEY,
-      order_no: order_no,
-      session_id: stripe_session_id,
-    });
   } catch (e: any) {
     console.log("checkout failed: ", e);
     return respErr("checkout failed: " + e.message);

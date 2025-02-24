@@ -39,6 +39,7 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
         amount: cn_pay ? item.cn_amount : item.amount,
         currency: cn_pay ? "cny" : item.currency,
         valid_months: item.valid_months,
+        payment_type: "cream" // 强制使用 Cream 支付，因为stripe还没有申请下来
       };
 
       setIsLoading(true);
@@ -66,24 +67,25 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
         return;
       }
 
-      const { public_key, session_id } = data;
+      if (data.provider === "cream") {
+        window.location.href = data.checkout_url;
+      } else {
+        const stripe = await loadStripe(data.public_key);
+        if (!stripe) {
+          toast.error("checkout failed");
+          return;
+        }
 
-      const stripe = await loadStripe(public_key);
-      if (!stripe) {
-        toast.error("checkout failed");
-        return;
-      }
+        const result = await stripe.redirectToCheckout({
+          sessionId: data.session_id,
+        });
 
-      const result = await stripe.redirectToCheckout({
-        sessionId: session_id,
-      });
-
-      if (result.error) {
-        toast.error(result.error.message);
+        if (result.error) {
+          toast.error(result.error.message);
+        }
       }
     } catch (e) {
       console.log("checkout failed: ", e);
-
       toast.error("checkout failed");
     } finally {
       setIsLoading(false);

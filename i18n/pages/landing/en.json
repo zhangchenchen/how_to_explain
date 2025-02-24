@@ -39,8 +39,6 @@
     "title": "Make Everything Easy to Understand",
     "description": "1. Input any complex question or url link<br />2. Choose your target audience (kids, beginners)<br />3. Click start button to get your explanation",
     "tip": "✨ New users get 10 free credits to start your journey!",
-    "show_happy_users": true,
-    "show_badge": false,
     "feature": {
       "items": [
         {
@@ -259,19 +257,18 @@
           "Community support"
         ],
         "interval": "month",
-        "amount": 2.9,
+        "amount": 5,
         "currency": "USD",
-        "price": "$2.9",
+        "price": "$5",
         "unit": "USD/month",
         "is_featured": false,
-        "tip": "No credit card required",
         "button": {
           "title": "Get Started",
           "url": "/auth/signin",
           "icon": "RiRocketLine"
         },
-        "product_id": "free",
-        "product_name": "HowToExplain Free",
+        "product_id": "Basic",
+        "product_name": "HowToExplain Basic",
         "credits": 100,
         "valid_months": 1,
         "className": "flex flex-col p-6 bg-white rounded-lg shadow"
@@ -291,9 +288,9 @@
           "Early access to new features"
         ],
         "interval": "month",
-        "amount": 990,
+        "amount": 10,
         "currency": "USD",
-        "price": "$9.9",
+        "price": "$10",
         "unit": "USD/month",
         "is_featured": true,
         "tip": "Most popular choice for professionals",

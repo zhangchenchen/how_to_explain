@@ -33,7 +33,7 @@ export default async function () {
       title: t("my_orders.table.amount"),
       callback: (item: any) =>
         `${item.currency.toUpperCase() === "CNY" ? "¥" : "$"} ${
-          item.amount / 100
+          item.amount
         }`,
     },
     {
